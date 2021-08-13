@@ -1,3 +1,14 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1, h2 , h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color : #0202a2 
+}
 
 @media (min-width: 992px) {
    .collapse {
@@ -36,17 +47,18 @@
 }
 
 .navb-icon {
-  height: 1.8em;
+  height: 6em;
 }
 
 .navbar {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .welcomefont {
   font-size: 1.5em;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
+
 
 
 /*
@@ -64,20 +76,20 @@ body {
 .navbar-default .navbar-brand {
   font-family: "Lucida Bright", Georgia, serif;
 
-  color: #f6f6f6;
+  color: #000000;
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #fdfdfd;
+  color: #000000;
 }
 .navbar-default .navbar-text {
-  color: #f6f6f6;
+  color: #000000;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #f6f6f6;
+  color: #000000;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #fdfdfd;
+  color: #000000;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #fdfdfd;

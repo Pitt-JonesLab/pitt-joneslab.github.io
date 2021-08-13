@@ -1,19 +1,11 @@
 ---
-title: Fraser Lab
+title: ATOMS Lab @ UMBC
 layout: home
 group: home
 ---
-
-# Welcome to the Fraser Lab!
-{: .display-4}
 <br>
-We are part of the [Department of Bioengineering and Therapeutic Sciences](http://bts.ucsf.edu/), the [Macromolecular Structure Group](http://msg.ucsf.edu/), and the [California Institute of Quantitative Biosciences (QB3)](http://qb3.org/).
+The **ATOMS Lab** within the [Department of Chemical, Biochemical and Environmental Engineering](https://https://cbee.umbc.edu/) at the [University of Maryland Baltimore County](https://www.umbc.edu) is led by [Professor Tyler R. Josephson](https://cbee.umbc.edu/josephson/). We use and develop molecular simulation techniques and artificial intelligence tools to gain molecular-scale insights on processes in the environment to enable new solutions for cleaner air and water.
 {: .welcomefont}
 
-![Fraser lab logo](static/img/logo/jf_retreat_logo.svg){:style="max-width: 100%; height: auto;"}
-
-Research in the lab is focused on discovering the fundamental principles of macromolecular structure and dynamics.  We are interested in defining conformational states that are essential for function and understanding how conformational transitions couple to biological mechanisms.
-{: .welcomefont}
-
-We are located in Genentech Hall at the Mission Bay Campus of UCSF.
+**Interested in joining the ATOMS lab?** <a href="{{ site.url }}/join">Open positions are listed on our Join page.</a> See our <a href="{{ site.url }}/compact/">lab policies </a> and reach out to current group members to learn more about what it’s like to work with us.
 {: .welcomefont}

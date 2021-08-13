@@ -1,14 +1,3 @@
-body {
-  font-family: 'Open Sans Condensed', sans-serif;
-}
-
-h1, h2 , h3, h4, h5, h6 {
-  font-family: 'Roboto', sans-serif;
-}
-
-a {
-  color : #0202a2 
-}
 
 @media (min-width: 992px) {
    .collapse {
@@ -47,18 +36,17 @@ a {
 }
 
 .navb-icon {
-  height: 6em;
+  height: 5em;
 }
 
 .navbar {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .welcomefont {
   font-size: 1.5em;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
-
 
 
 /*

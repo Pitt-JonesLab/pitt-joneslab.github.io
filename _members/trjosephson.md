@@ -2,7 +2,7 @@
 name: Professor Tyler R. Josephson
 startdate: 2019-08-01
 enddate: YYYY-MM-DD
-image: /static/img/members/trjosephson.jpg
+image: /static/img/members/trjosephson-2.png
 position: Principal Investigator
 pronouns: he/him/his
 email: tjo (at) umbc.edu

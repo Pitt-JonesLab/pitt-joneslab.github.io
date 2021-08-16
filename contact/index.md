@@ -1,6 +1,6 @@
 ---
 title: Contact the ATOMS Lab
-layout: contact
+layout: parallax_lead
 group: contact
 ---
 

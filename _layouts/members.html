@@ -2,11 +2,11 @@
 <div class="container">
    <img class="img-fluid" src="/static/img/members/group.png">
    <div class="row">
-       <div class="col-sm-9">
+       <div class="col-sm-12">
            <br>
            {{ content }}
     </div>
-    <div class="col-sm-3 smalltxt">
+    <div class="col-sm-12 smalltxt">
         <br>
         {% capture sidebar %}{% include alumni_sidebar.md %}{% endcapture %}
         {{ sidebar | markdownify }}

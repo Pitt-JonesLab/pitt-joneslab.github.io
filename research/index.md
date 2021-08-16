@@ -1,7 +1,6 @@
 ---
 title: Research @ ATOMS Lab
-layout: parallax_lead
-banner: /static/img/research.png
+layout: research
 group: research
 ---
 

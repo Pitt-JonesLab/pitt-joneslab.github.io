@@ -1,86 +1,12 @@
 ---
-title: Research in the ATOMS Lab
-layout: default
+title: Research @ ATOMS Lab
+layout: research
 group: research
 ---
-
-<div class="row">
-
-# Our research
-
-
-
-### Current project directions
 <br>
-<br>
+We are pursuing three interrelated research thrusts at the intersection of chemical engineering, computational chemistry, and computer science:
 
-</div>
+	Molecular simulation and machine learning for adsorption in porous materials.
+	Modeling to characterize and separate emerging contaminants in water pollution.
+	Teaching AI agents to derive new theories in molecular science.
 
-<div class="row">
-
-### Mapping equation space for adsorption isotherms
-
-<div class="col-md-7 order-md-1">
-
-Details TBA
-</div>
-<div class="col-md-5 order-md-2 align-self-center">
-<img class="img-fluid" src="/static/img/research" alt="eqnspace">
-
-
-</div>
-</div>
-<div class="row">
-
-###  Advanced Monte Carlo moves for sampling equation space
-
-
-<div class="col-md-7 order-md-2">
-
-Details TBA
-</div>
-
-<div class="col-md-5 order-md-1 align-self-center">
-<img class="img-fluid" src="/static/img/research/" alt="MC">
-</div>
-</div>
-<div class="row">
-
-### Predicting adsorption in Brønsted acidic zeolites
-
-<div class="col-md-7 order-md-1 ">
-Details TBA
-</div>
-
-<div class="col-md-3 order-md-2 align-self-center">
-
-<img class="img-fluid" src="/static/img/research/" alt="h-zeo">
-</div>
-</div>
-<div class="row">
-
-### Knowledge graph for equations
-
-<div class="col-md-7 order-md-2">
-Details TBA
-</div>
-
-<div class="col-md-5 order-md-1 align-self-center">
-<img class="img-fluid" src="/static/img/research/" alt="KG">
-</div>
-</div>
-<div class="row">
-
-### Differential Dynamic Logic for Verifiable and Safe Catalysis
-
-<div class="col-md-7 order-md-1">
- 
-Details TBA
-
-</div>
-
-<div class="col-md-5 order-md-2 align-self-center ">
-<img class="img-fluid" src="/static/img/research/" alt="theorem prover">
-</div>
-
-</div>

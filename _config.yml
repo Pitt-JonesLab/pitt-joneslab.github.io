@@ -25,21 +25,18 @@ exclude:
         - vendor/ruby/
 
 collections:
-        affiliates:
-                output: true
         members:
                 output: true
         publications:
                 output: true
-        reviews:
-                output: true
         alumni:
                 output: true
-        sep:
+        undergrads-cbee:
                 output: true
-        visitors:
+        undergrads-csee:
                 output: true
-        undergrads:
+        grads-cbee:
                 output: true
-        grads:
+        grads-csee:
                 output: true
+

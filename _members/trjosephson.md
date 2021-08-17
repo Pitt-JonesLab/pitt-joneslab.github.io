@@ -1,11 +1,9 @@
 ---
-name: Professor Tyler R. Josephson
+name: Tyler R. Josephson, Ph.D. (he/him/his)
 startdate: 2019-08-01
 enddate: YYYY-MM-DD
 image: /static/img/members/trjosephson-2.png
-position: Principal Investigator
-pronouns: he/him/his
-email: tjo (at) umbc.edu
+email: tjo [at] umbc.edu
 scholar: 0LAAG-4AAAAJ
 website: tylerjosephson.com
 twitter: trjosephson

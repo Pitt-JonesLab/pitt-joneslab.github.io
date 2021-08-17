@@ -1,11 +1,10 @@
 ---
-name: Charlie Fox
+name: Charlie Fox (he/him/his)
 startdate: YYYY-MM-DD
 enddate: YYYY-MM-DD
 image: /static/img/members/charlesfox.jpeg
 position: Graduate Student Researcher (CSEE)
-pronouns: he/him/his
-email: charfox1@umbc.edu
+email: charfox1 [at] umbc.edu
 twitter: CharlieFoxML
 github: CharFox1
 linkedin: charlesfoxml

@@ -1,9 +1,12 @@
-.
-}
 
 .paral {
     height: 400px;
     background-attachment: fixed;
+}
+
+
+.paral {
+    height: 350px;
     background-size: cover;
     display: flex;
     align-items: center;

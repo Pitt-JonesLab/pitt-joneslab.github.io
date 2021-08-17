@@ -4,19 +4,20 @@
 }
 
 
+
 .paral {
     height: 350px;
+    /* background-size: cover; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* background-repeat: no-repeat; */
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-    /*background-position: 50% 50%;*/
+    /* background-position: center; */
+    /* background-position: 50% 50%; */
 }
+
 
 
 .pubimg {
@@ -28,6 +29,8 @@
        display: none !important;
    }
 }
+
+
 
 .video-container {
     position: relative;
@@ -68,7 +71,17 @@
 }
 
 .navbar-contact {
-  /* margin-bottom: 20px; */
+    /* margin-bottom: 20px; */
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
 }
 
 .welcomefont {

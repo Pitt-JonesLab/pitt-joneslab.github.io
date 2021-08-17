@@ -2,9 +2,9 @@
 name: Francesca Nacion (she/her/hers)
 startdate: 2020-12-20
 enddate: YYYY-MM-DD
-image: /static/img/members/nikkinacion.JPG
-position: Undergraduate Student Researcher (CBEE) 
-email: fnacion1 [at] umbc.edu
+image: /static/img/members/nikkinacion.png
+position: Senior, CBEE 
+email: fnacion1[at]umbc.edu
 twitter: Fran_Nacion
 linkedin: francesca-nicole-nacion
 github: nikkinacion1

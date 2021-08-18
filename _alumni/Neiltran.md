@@ -2,9 +2,8 @@
 name: Neil Tran (he/him/his)
 startdate: 2020-12-20
 enddate: 2021-07-28
-position: Undergraduate Student Researcher (CBEE)
-subsequent: Graduate Student @ UIUC, Illinois
-email: ntran3[at]umbc.edu
+position: BS CBEE, 2021
+subsequent: Graduate Student @ <a href= "https://chbe.illinois.edu/">UIUC </a>
 twitter: trannghia207
 linkedin: trannghia
 github: trannghia207

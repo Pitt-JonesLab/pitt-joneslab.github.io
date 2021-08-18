@@ -1,5 +1,5 @@
 ---
-title: Join the ATOMS Lab
+title: Join ATOMS Lab
 layout: default
 group: join
 ---

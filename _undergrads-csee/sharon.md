@@ -1,5 +1,5 @@
 ---
-name: Sharon Liu (she/her/hers)
+name: Sharon Liu 
 startdate: 2021-22-07
 enddate: YYYY-MM-DD
 image: /static/img/members/logo.png

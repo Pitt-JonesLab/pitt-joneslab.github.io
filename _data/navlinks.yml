@@ -14,10 +14,6 @@
   link: "/members"
   group: member
 
-- name: FUNDING
-  link: "/funding"
-  group: funding
-
 - name: JOIN
   link: "/join"
   group: join

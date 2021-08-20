@@ -7,6 +7,7 @@ image: '/static/img/pub/2018_fructose.png'
 pdf: '/static/pdf/publications/trjosephson_2018.pdf'
 
 links:
-
+- name: ACS Catalysis
+  url: https://doi.org/10.1021/acscatal.8b01615
 ---
 

@@ -7,4 +7,6 @@ image: '/static/img/pub/2019_partial molar properties.png'
 pdf: '/static/pdf/publications/trjosephson_2019.pdf'
 
 links:
+- name: Molecular Physics
+  url:  https://doi.org/10.1080/00268976.2019.1648898
 ---

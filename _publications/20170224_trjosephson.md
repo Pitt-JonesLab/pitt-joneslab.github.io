@@ -7,6 +7,6 @@ image: '/static/img/pub/2017_ sn beta zeo.jpeg'
 pdf: '/static/pdf/publications/trjosephson_2017.pdf'
 
 links:
-- name: 
-  url: 
+- name: Microporous and Mesoporous Materials
+  url: https://doi.org/10.1016/j.micromeso.2017.02.065
 ---

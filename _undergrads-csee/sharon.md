@@ -5,7 +5,6 @@ enddate: YYYY-MM-DD
 image: /static/img/members/sharonliu.png
 position: CSEE
 email: s120[at]umbc.edu
-<<<<<<< HEAD
 twitter: 
 linkedin: 
 github: sio781

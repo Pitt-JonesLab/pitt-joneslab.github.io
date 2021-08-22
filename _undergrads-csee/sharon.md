@@ -1,11 +1,12 @@
 ---
-name: Sharon Liu 
-startdate: 2021-22-07
+name: Sharon Liu (she/her/hers)
+startdate: 2020-12-20
 enddate: YYYY-MM-DD
-image: /static/img/members/logo.png
+image: /static/img/members/sharonliu.png
 position: CSEE
 email: s120[at]umbc.edu
 twitter: 
 linkedin: 
+github: sio781
 
 ---

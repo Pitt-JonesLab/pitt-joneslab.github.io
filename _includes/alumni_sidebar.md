@@ -2,8 +2,7 @@
 {% assign sorted = (site.alumni | sort: "enddate") | reverse %}
 {% for member in sorted %}
 <hr>
-<img class="img-fluid" src="{{member.image}}" {% if member.altimage %} onmouseover="this.src='{{member.altimage}}';" onmouseout="this.src='{{member.image}}';" {% endif %} alt="{{member.name}}"; width="365"; height="365"><br>
-<div id = "{{member.name}}" style="padding-top: 60px; margin-top: -60px;">
+
 <p><strong>{{member.name}}</strong> - <em>{{member.position}}</em><br>
 
 {% if member.pronouns %}

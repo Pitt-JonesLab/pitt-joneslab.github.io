@@ -1,6 +1,6 @@
 ---
 name: Christopher Hamer 
-startdate: 2021-22-07
+startdate: 
 enddate: YYYY-MM-DD
 image: /static/img/members/logo.png
 position: CSEE

@@ -29,8 +29,6 @@ collections:
                 output: true
         publications:
                 output: true
-        alumni:
-                output: true
         undergrads-cbee:
                 output: true
         undergrads-csee:
@@ -38,5 +36,7 @@ collections:
         grads-cbee:
                 output: true
         grads-csee:
+                output: true
+        alumni-bottom:
                 output: true
 

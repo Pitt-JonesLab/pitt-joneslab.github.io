@@ -22,7 +22,7 @@ group: publications
 	<div class="container-fluid">
 
 		{% for publication in site.publications reversed %}
-		<hr>
+		<hr style="border: 1px solid black;">
 		<div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{publication.pmid}}">
 				<div><h5>{{ publication.title | markdownify }}</h5><br>
 						{{ publication.authors | markdownify | remove: '<p>' | remove: '</p>' }}
@@ -53,6 +53,12 @@ group: publications
 						{{publication.pmid}}
 					</a>
 			</li>
+			{% endif %}
+
+
+			<!--DOI-->
+			{% if publication.doi %}
+			<li>DOI: <a href="https://doi.org/{{publication.doi}}" alt = "DOI link: {{publication.doi}}" target= "_blank" rel= "noopener noreferrer"> {{publication.doi}}</a></li>
 			{% endif %}
 
 			<!--PMCID - optional -->

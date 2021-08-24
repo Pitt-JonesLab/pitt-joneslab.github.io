@@ -91,12 +91,6 @@ group: publications
 			<li><img class="inline-bloc mem-icon" src="/static/img/logos/PDF.svg" alt="PDF"><a href="{{publication.pdf}}" alt = "PDF"> Full Text</a></li>
 			{% endif %}
 
-			<!--Github - optional -->
-			{% if publication.github %}
-			<br>
-			<strong>Source Code</strong>
-			<li><img class="inline-bloc mem-icon" src="/static/img/logos/github_logo.svg" alt="GitHub"> <a href="https://github.com/{{publication.github}}" alt = "github link: {{publication.github}}" target="_blank"> {{publication.github}}</a></li>
-			{% endif %}
 
 			<!-- SBGrid Datasets - optional -->
 			{% if publication.data %}
@@ -160,11 +154,14 @@ group: publications
 		</li>
 		{% endif %}
 
+
 		<!--Github - optional-->
 		{% if publication.github %}
+			<br>
+			<strong>Source Code</strong>
 		<li>{% if publication.github.size > 1 %}GitHub Repositories:{%else%}GitHub Repository:{% endif %}
 		{% for record in publication.github %}
-		<a href="https://www.github.com/{{record.url}}/">{{record.url}}</a>{% if record.description %} ({{record.description}}){% endif %}{% unless forloop.last %}, {% endunless %}
+			<img class="inline-bloc mem-icon" src="/static/img/logos/github_logo.svg" alt="GitHub"> <a href="https://www.github.com/{{record.url}}/">{{record.url}}</a>{% if record.description %} ({{record.description}}){% endif %}{% unless forloop.last %}, {% endunless %}
 		{% endfor %}
 		</li>
 		{% endif %}
@@ -177,7 +174,8 @@ group: publications
 		{% endfor %}
 		</li>
 		{% endif %}
-
+		</ul>
+		<ul class="col-sm-6">
 		<!--additional links - optional-->
 		{% if publication.links %}
 		<br>

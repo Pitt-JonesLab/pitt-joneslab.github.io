@@ -1,5 +1,6 @@
 ---
-name: Neil Tran (he/him/his)
+name: Neil Tran
+pronouns: he/him/his
 startdate: 2020-12-20
 enddate: 2021-07-28
 image: /static/img/members/neiltran.png

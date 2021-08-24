@@ -1,9 +1,12 @@
 ---
-name: Tyler R. Josephson, Ph.D. (he/him/his)
+name: Tyler R. Josephson, Ph.D.
+pronouns: he/him/his
+position: Assistant Professor, CBEE
+Affiliate Faculty Member, CSEE
 startdate: 2019-08-01
 enddate: YYYY-MM-DD
 image: /static/img/members/trjosephson-2.png
-email: tjo [at] umbc.edu
+email: tjo  [at]  umbc.edu
 scholar: 0LAAG-4AAAAJ
 website: tylerjosephson.com
 twitter: trjosephson

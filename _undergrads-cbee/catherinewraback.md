@@ -1,5 +1,6 @@
 ---
-name: Catherine Wraback (she/her/hers)
+name: Catherine Wraback
+pronouns: she/her/hers
 startdate: 2020-12-20
 enddate: YYYY-MM-DD
 image: /static/img/members/cwraback.png

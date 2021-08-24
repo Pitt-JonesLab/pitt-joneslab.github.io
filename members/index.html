@@ -12,7 +12,7 @@ Furthermore, we are committed to maintaining a supportive and collaborative lab 
 
 <h4> PRINCIPAL INVESTIGATOR </h4>
 {% for member in site.members %}
-        <hr>
+  <hr>
         <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 <div id = "{{member.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
 
@@ -67,55 +67,10 @@ Furthermore, we are committed to maintaining a supportive and collaborative lab 
 
 </div>
 {% endfor %}
-<hr>
+
 
 <h4>GRADUATE STUDENTS</h4>
 {% for member in site.grads-cbee %}
-<hr>
-<div id = "{{member.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
-  <div class="col-sm-3">
-      <img class="img-fluid" src="{{member.image}}" {% if member.altimage %} onmouseover="this.src='{{member.altimage}}';" onmouseout="this.src='{{member.image}}';" {% endif %} alt="{{member.name}}"; width="365"; height="365"><br>
-      <strong>{{member.name}}</strong> <br>
-      {% if member.pronouns %}
-      <em>{{member.pronouns}}</em> <br>
-      {% endif %}
-      {{member.position}} <br>
-      <em>{{member.email}}</em> <br>
-      {% if member.website %}
-      <a style="overflow-wrap: break-word;" href= "{{member.website}}">{{member.website}}</a> <br>
-      {% endif %}
-      {% if member.orcid %}
-      <a href="http://orcid.org"><img class="inline-block mem-icon" src="/static/img/orcidid_logo.svg"></a>
-      <a href="http://orcid.org/{{member.orcid}}"> {{member.orcid}}</a> <br>
-      {% endif %}
-      {% if member.linkedin %}
-      <a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/lin_logo.svg"></a>
-      <a href= "http://www.linkedin.com/in/{{member.linkedin}}"> {{member.linkedin}} </a> <br>
-      {% endif %}
-      {% if member.scholar %}
-      <a href="http://scholar.google.com"><img class="inline-block mem-icon" src="/static/img/gscholar_logo.svg"></a>
-      <a href= "http://scholar.google.com/citations?user={{member.scholar}}"> Scholar Citations </a> <br>
-      {% endif %}
-      {% if member.twitter %}
-      <a href="http://twitter.com"><img class="inline-block mem-icon" src="/static/img/twitter2_logo.svg"></a>
-      <a href= "http://twitter.com/{{member.twitter}}"> @{{member.twitter}} </a> <br>
-      {% endif %}
-      {% if member.github %}
-      <a href="http://github.com"><img class="inline-bloc mem-icon" src="/static/img/github_logo.svg"></a>
-      <a href= "http://github.com/{{member.github}}"> {{member.github}} </a> <br>
-      {% endif %}
-  </div>
-  <div class="col-sm-6">
-      <p class="text-justify">{{member.description | markdownify}}</p>
-      {% if member.projects %}
-      <em>Current Projects:</em> {{member.projects | markdownify}}
-      {% endif %}
-  </div>
-</div>
-{% endfor %}
-<hr>
-
-{% for member in site.grads-csee %}
 <hr>
 <div id = "{{member.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
     <div class="col-sm-3">
@@ -124,7 +79,7 @@ Furthermore, we are committed to maintaining a supportive and collaborative lab 
         {% endif %}
     </div>
     <div class="col-sm-3">
-        <strong>{{member.name}}</strong>
+        <strong>{{member.name}}</strong> <br>
         {% if member.pronouns %}
         <em>{{member.pronouns}}</em> <br>
         {% endif %}
@@ -166,60 +121,17 @@ Furthermore, we are committed to maintaining a supportive and collaborative lab 
     </div>
 </div>
 {% endfor %}
-<hr>
 
-<h4>UNDERGRADUATE STUDENTS</h4>
-{% for member in site.undergrads-cbee %}
-  <hr>
-  <div id = "{{member.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
-    <div class="col-sm-4">
-        <img class="img-fluid" src="{{member.image}}" {% if member.altimage %} onmouseover="this.src='{{member.altimage}}';" onmouseout="this.src='{{member.image}}';" {% endif %} alt="{{member.name}}"; width="365"; height="365"><br>
-        <strong>{{member.name}}</strong> <br>
-        {% if member.pronouns %}
-          <em>{{member.pronouns}}</em> <br>
-        {% endif %}
-        {{member.position}} <br>
-        <em>{{member.email}}</em> <br>
-        {% if member.website %}
-          <a style="overflow-wrap: break-word;" href= "{{member.website}}">{{member.website}}</a> <br>
-        {% endif %}
-        {% if member.orcid %}
-          <a href="http://orcid.org"><img class="inline-block mem-icon" src="/static/img/orcidid_logo.svg"></a>
-          <a href="http://orcid.org/{{member.orcid}}"> {{member.orcid}}</a> <br>
-        {% endif %}
-        {% if member.linkedin %}
-          <a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/lin_logo.svg"></a>
-          <a href= "http://www.linkedin.com/in/{{member.linkedin}}"> {{member.linkedin}} </a> <br>
-        {% endif %}
-        {% if member.UCSF %}
-          <a href="http://www.ucsf.edu"><img class="inline-block mem-icon" src="/static/img/ucsf_logo_black.svg"></a>
-          <a href= "http://profiles.ucsf.edu/{{member.UCSF}}"> Profile </a> <br>
-        {% endif %}
-        {% if member.scholar %}
-          <a href="http://scholar.google.com"><img class="inline-block mem-icon" src="/static/img/gscholar_logo.svg"></a>
-          <a href= "http://scholar.google.com/citations?user={{member.scholar}}"> Scholar Citations </a> <br>
-        {% endif %}
-        {% if member.twitter %}
-          <a href="http://twitter.com"><img class="inline-block mem-icon" src="/static/img/twitter2_logo.svg"></a>
-          <a href= "http://twitter.com/{{member.twitter}}"> @{{member.twitter}} </a> <br>
-        {% endif %}
-        {% if member.github %}
-          <a href="http://github.com"><img class="inline-bloc mem-icon" src="/static/img/github_logo.svg"></a>
-          <a href= "http://github.com/{{member.github}}"> {{member.github}} </a> <br>
-        {% endif %}
-    </div>
-    <div class="col-sm-8">
-        <p class="text-justify">{{member.description | markdownify}}</p>
-    </div>
-</div>
-{% endfor %}
-<hr>
 
-{% for member in site.undergrads-csee %}
-<hr>
+{% for member in site.grads-csee %}
+
 <div id = "{{member.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
-    <div class="col-sm-4">
+    <div class="col-sm-3">
+        {% if member.image %}
         <img class="img-fluid" src="{{member.image}}" {% if member.altimage %} onmouseover="this.src='{{member.altimage}}';" onmouseout="this.src='{{member.image}}';" {% endif %} alt="{{member.name}}"; width="365"; height="365"><br>
+        {% endif %}
+    </div>
+    <div class="col-sm-3">
         <strong>{{member.name}}</strong> <br>
         {% if member.pronouns %}
         <em>{{member.pronouns}}</em> <br>
@@ -254,35 +166,135 @@ Furthermore, we are committed to maintaining a supportive and collaborative lab 
         <a href= "http://github.com/{{member.github}}"> {{member.github}} </a> <br>
         {% endif %}
     </div>
-    <div class="col-sm-8">
+    <div class="col-sm-6">
         <p class="text-justify">{{member.description | markdownify}}</p>
+        {% if member.projects %}
+        <em>Current Projects:</em> {{member.projects | markdownify}}
+        {% endif %}
     </div>
 </div>
 {% endfor %}
+
+<h4>UNDERGRADUATE STUDENTS</h4>
 <hr>
+{% for member in site.undergrads-cbee %}
+<div id = "{{member.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        {% if member.image %}
+        <img class="img-fluid" src="{{member.image}}" {% if member.altimage %} onmouseover="this.src='{{member.altimage}}';" onmouseout="this.src='{{member.image}}';" {% endif %} alt="{{member.name}}"; width="365"; height="365"><br>
+        {% endif %}
+    </div>
+    <div class="col-sm-3">
+        <strong>{{member.name}}</strong> <br>
+        {% if member.pronouns %}
+        <em>{{member.pronouns}}</em> <br>
+        {% endif %}
+        {{member.position}} <br>
+        <em>{{member.email}}</em> <br>
+        {% if member.website %}
+        <a style="overflow-wrap: break-word;" href= "{{member.website}}">{{member.website}}</a> <br>
+        {% endif %}
+        {% if member.orcid %}
+        <a href="http://orcid.org"><img class="inline-block mem-icon" src="/static/img/orcidid_logo.svg"></a>
+        <a href="http://orcid.org/{{member.orcid}}"> {{member.orcid}}</a> <br>
+        {% endif %}
+        {% if member.linkedin %}
+        <a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/lin_logo.svg"></a>
+        <a href= "http://www.linkedin.com/in/{{member.linkedin}}"> {{member.linkedin}} </a> <br>
+        {% endif %}
+        {% if member.UCSF %}
+        <a href="http://www.ucsf.edu"><img class="inline-block mem-icon" src="/static/img/ucsf_logo_black.svg"></a>
+        <a href= "http://profiles.ucsf.edu/{{member.UCSF}}"> Profile </a> <br>
+        {% endif %}
+        {% if member.scholar %}
+        <a href="http://scholar.google.com"><img class="inline-block mem-icon" src="/static/img/gscholar_logo.svg"></a>
+        <a href= "http://scholar.google.com/citations?user={{member.scholar}}"> Scholar Citations </a> <br>
+        {% endif %}
+        {% if member.twitter %}
+        <a href="http://twitter.com"><img class="inline-block mem-icon" src="/static/img/twitter2_logo.svg"></a>
+        <a href= "http://twitter.com/{{member.twitter}}"> @{{member.twitter}} </a> <br>
+        {% endif %}
+        {% if member.github %}
+        <a href="http://github.com"><img class="inline-bloc mem-icon" src="/static/img/github_logo.svg"></a>
+        <a href= "http://github.com/{{member.github}}"> {{member.github}} </a> <br>
+        {% endif %}
+    </div>
+    <div class="col-sm-6">
+        <p class="text-justify">{{member.description | markdownify}}</p>
+        {% if member.projects %}
+        <em>Current Projects:</em> {{member.projects | markdownify}}
+        {% endif %}
+    </div>
+</div>
+{% endfor %}
+
+
+{% for member in site.undergrads-csee %}
+<div id = "{{member.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        {% if member.image %}
+        <img class="img-fluid" src="{{member.image}}" {% if member.altimage %} onmouseover="this.src='{{member.altimage}}';" onmouseout="this.src='{{member.image}}';" {% endif %} alt="{{member.name}}"; width="365"; height="365"><br>
+        {% endif %}
+    </div>
+    <div class="col-sm-3">
+        <strong>{{member.name}}</strong> <br>
+        {% if member.pronouns %}
+        <em>{{member.pronouns}}</em> <br>
+        {% endif %}
+        {{member.position}} <br>
+        <em>{{member.email}}</em> <br>
+        {% if member.website %}
+        <a style="overflow-wrap: break-word;" href= "{{member.website}}">{{member.website}}</a> <br>
+        {% endif %}
+        {% if member.orcid %}
+        <a href="http://orcid.org"><img class="inline-block mem-icon" src="/static/img/orcidid_logo.svg"></a>
+        <a href="http://orcid.org/{{member.orcid}}"> {{member.orcid}}</a> <br>
+        {% endif %}
+        {% if member.linkedin %}
+        <a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/lin_logo.svg"></a>
+        <a href= "http://www.linkedin.com/in/{{member.linkedin}}"> {{member.linkedin}} </a> <br>
+        {% endif %}
+        {% if member.UCSF %}
+        <a href="http://www.ucsf.edu"><img class="inline-block mem-icon" src="/static/img/ucsf_logo_black.svg"></a>
+        <a href= "http://profiles.ucsf.edu/{{member.UCSF}}"> Profile </a> <br>
+        {% endif %}
+        {% if member.scholar %}
+        <a href="http://scholar.google.com"><img class="inline-block mem-icon" src="/static/img/gscholar_logo.svg"></a>
+        <a href= "http://scholar.google.com/citations?user={{member.scholar}}"> Scholar Citations </a> <br>
+        {% endif %}
+        {% if member.twitter %}
+        <a href="http://twitter.com"><img class="inline-block mem-icon" src="/static/img/twitter2_logo.svg"></a>
+        <a href= "http://twitter.com/{{member.twitter}}"> @{{member.twitter}} </a> <br>
+        {% endif %}
+        {% if member.github %}
+        <a href="http://github.com"><img class="inline-bloc mem-icon" src="/static/img/github_logo.svg"></a>
+        <a href= "http://github.com/{{member.github}}"> {{member.github}} </a> <br>
+        {% endif %}
+    </div>
+    <div class="col-sm-6">
+        <p class="text-justify">{{member.description | markdownify}}</p>
+        {% if member.projects %}
+        <em>Current Projects:</em> {{member.projects | markdownify}}
+        {% endif %}
+    </div>
+</div>
+{% endfor %}
+
 
 
 <h4>ALUMNI</h4>
-{% for member in site.alumni-bottom %}
-<hr>
 <div id = "{{member.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
-    <div class="col-sm-4">
+    <div class="col-sm-3">
+        {% if member.image %}
         <img class="img-fluid" src="{{member.image}}" {% if member.altimage %} onmouseover="this.src='{{member.altimage}}';" onmouseout="this.src='{{member.image}}';" {% endif %} alt="{{member.name}}"; width="365"; height="365"><br>
+        {% endif %}
+    </div>
+    <div class="col-sm-3">
         <strong>{{member.name}}</strong> <br>
         {% if member.pronouns %}
         <em>{{member.pronouns}}</em> <br>
         {% endif %}
-        {% assign start = member.startdate | date:"%Y" %}
-        {% assign end = member.enddate | date:"%Y" %}
-        {% if end == '' %}
-        {{member.startdate | date:"%Y"}}
-        {% endif %}
-        {% if start == end %}
-        {{member.startdate | date:"%Y"}}<br>
-        {% else %}
-        {{member.startdate | date:"%Y"}} - {{member.enddate | date:"%Y"}}<br>
-        {% endif %}
-        Currently: {{member.subsequent}} <br>
+        {{member.position}} <br>
         <em>{{member.email}}</em> <br>
         {% if member.website %}
         <a style="overflow-wrap: break-word;" href= "{{member.website}}">{{member.website}}</a> <br>
@@ -312,9 +324,12 @@ Furthermore, we are committed to maintaining a supportive and collaborative lab 
         <a href= "http://github.com/{{member.github}}"> {{member.github}} </a> <br>
         {% endif %}
     </div>
-    <div class="col-sm-8">
+    <div class="col-sm-6">
         <p class="text-justify">{{member.description | markdownify}}</p>
+        {% if member.projects %}
+        <em>Current Projects:</em> {{member.projects | markdownify}}
+        {% endif %}
     </div>
 </div>
 {% endfor %}
-<hr>
+

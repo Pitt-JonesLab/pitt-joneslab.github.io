@@ -1,5 +1,6 @@
 ---
-name: Jinyu Huang (he/him/his)
+name: Jinyu Huang
+pronouns: he/him/his
 startdate: 2021-22-07
 enddate: YYYY-MM-DD
 image: /static/img/members/jinyuhuang.png

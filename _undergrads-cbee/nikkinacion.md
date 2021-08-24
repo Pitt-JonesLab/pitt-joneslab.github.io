@@ -1,5 +1,6 @@
 ---
-name: Francesca Nacion (she/her/hers)
+name: Francesca Nacion
+pronouns: she/her/hers
 startdate: 2020-12-20
 enddate: YYYY-MM-DD
 image: /static/img/members/nikkinacion.png

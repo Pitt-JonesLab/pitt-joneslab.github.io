@@ -58,7 +58,7 @@ group: publications
 
 			<!--DOI-->
 			{% if publication.doi %}
-			<li>DOI: <a href="https://doi.org/{{publication.doi}}" alt = "DOI link: {{publication.doi}}" target= "_blank" rel= "noopener noreferrer"> {{publication.doi}}</a></li>
+			<li><img class="inline-bloc mem-icon" src="/static/img/logos/DOI_logo.svg" alt="DOI"> <a href="https://doi.org/{{publication.doi}}" alt = "DOI link: {{publication.doi}}" target= "_blank" rel= "noopener noreferrer"> {{publication.doi}}</a></li>
 			{% endif %}
 
 			<!--PMCID - optional -->
@@ -78,7 +78,7 @@ group: publications
 
 			<!--Arxiv - optional -->
 			{% if publication.arxiv %}
-			<li>arXiv Preprint: <a href="https://arxiv.org/abs/{{publication.arxiv}}" alt = "arxiv preprint link: {{publication.arxiv}}"> {{publication.arxiv}}</a></li>
+			<li><img class="inline-bloc mem-icon" src="/static/img/logos/arxiv_logo.jpg" alt="arXiv"> <a href="https://arxiv.org/abs/{{publication.arxiv}}" alt = "arxiv preprint link: {{publication.arxiv}}"> {{publication.arxiv}}</a></li>
 			{% endif %}
 
 			<!--Chemrxiv - optional -->
@@ -88,7 +88,14 @@ group: publications
 
 			<!-- PDF -->
 			{% if publication.journal %}
-			<li><a href="{{publication.pdf}}" alt = "PDF"> Full Text</a></li>
+			<li><img class="inline-bloc mem-icon" src="/static/img/logos/PDF.svg" alt="PDF"><a href="{{publication.pdf}}" alt = "PDF"> Full Text</a></li>
+			{% endif %}
+
+			<!--Github - optional -->
+			{% if publication.github %}
+			<br>
+			<strong>Source Code</strong>
+			<li><img class="inline-bloc mem-icon" src="/static/img/logos/github_logo.svg" alt="GitHub"> <a href="https://github.com/{{publication.github}}" alt = "github link: {{publication.github}}" target="_blank"> {{publication.github}}</a></li>
 			{% endif %}
 
 			<!-- SBGrid Datasets - optional -->

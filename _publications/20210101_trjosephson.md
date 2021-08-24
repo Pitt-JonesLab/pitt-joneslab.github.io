@@ -6,10 +6,7 @@ pub_date: '2021-01-01'
 doi: 10.1016/j.jocs.2020.101267
 image: '/static/img/pub/2021_furan.png'
 pdf: '/static/pdf/publications/trjosephson_2021.pdf'
-
-github:
-- description: SPP_Adsorption 
-  url: SiepmannGroup/SPP_Adsorption
+github: SiepmannGroup/SPP_Adsorption
 
 links:
 

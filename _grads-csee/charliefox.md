@@ -1,5 +1,6 @@
 ---
-name: Charlie Fox (he/him/his)
+name: Charlie Fox
+pronouns: (he/him/his)
 startdate: YYYY-MM-DD
 enddate: YYYY-MM-DD
 image: /static/img/members/charlesfox.png

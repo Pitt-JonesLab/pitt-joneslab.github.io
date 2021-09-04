@@ -47,7 +47,7 @@ group: members
                 {% if member.orcid %}
                 <li>
                     <a href="http://orcid.org"><img class="inline-block mem-icon" src="/static/img/orcidid_logo.svg"></a>
-                    <a href="http://orcid.org/{{member.orcid}}"> {{member.orcid}}</a>
+                    <a href="http://orcid.org/{{member.orcid}}">{{member.orcid}}</a>
                 </li>
 
                 {% endif %}
@@ -104,6 +104,8 @@ group: members
             <ul class="member-information">
                 <li>
                     <strong>{{member.name}}</strong>
+                </li>
+                <li>
                     {% if member.pronouns %}
                     <em>{{member.pronouns}}</em>
                     {% endif %}
@@ -180,6 +182,8 @@ group: members
             <ul class="member-information">
                 <li>
                     <strong>{{member.name}}</strong>
+                </li>
+                <li>
                     {% if member.pronouns %}
                     <em>{{member.pronouns}}</em>
                     {% endif %}
@@ -233,7 +237,7 @@ group: members
                 </li>
                 {% endif %}
             </ul>
-
+        </div>
             <div class="col-sm-6">
             {{member.description | markdownify}}
             {% if member.projects %}

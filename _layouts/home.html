@@ -1,11 +1,14 @@
 {% include header.html %}
 
-<div class="container hyperlink-wrapper px-2 max-width: 100%">
-    <img class="img-fluid mx-auto d-block" src="/static/img/logo-home-pg.png"" width=860>
-    <div class="row"> 
-        
-        {{ content }}
+<div class="container hyperlink-wrapper px-2">
 
+    <div class="row"> 
+        <div class="col-12">
+            <img class="img-fluid mx-auto d-block" src="/static/img/logo-home-pg.png">
+        </div>
+        <div class="col-12">
+            {{ content }}
+        </div>
     </div>
 </div>
 {% include footer.html %}

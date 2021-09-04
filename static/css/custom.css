@@ -99,6 +99,10 @@ body {
 
 .social-tags {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: unset;
 }
 
 .social-tags li {
@@ -194,3 +198,17 @@ body {
   }
 }
 */
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+
+  .navbar {
+    padding: 0.5rem;
+  }
+  .navbar-brand {
+    margin-right: unset;
+  }
+  .navb-icon {
+    height: 4em;
+  }
+
+}

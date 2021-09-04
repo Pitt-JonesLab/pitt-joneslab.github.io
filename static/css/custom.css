@@ -139,6 +139,11 @@ body {
   margin: 45px 0;
 }
 
+.member-information {
+  list-style-type: none;
+  padding: unset;
+}
+
 /*
 body {
   padding-top: 60px;

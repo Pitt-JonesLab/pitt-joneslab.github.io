@@ -85,7 +85,7 @@ a:hover, a:visited, a:active {
   color: #cccccc !important;
 }
 
-.nav-item .active .nav-link, .navbar-brand {
+.navbar-nav .active .nav-link, .navbar-brand {
   color: #ffffff !important;
 }
 

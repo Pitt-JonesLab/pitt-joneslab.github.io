@@ -1,3 +1,10 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.site-home {
+  font-size: 30px;
+}
 
 .paral {
     height: 100%;

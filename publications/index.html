@@ -4,20 +4,10 @@ layout: default
 group: publications
 ---
 
-<div class="container hyperlink-wrapper">
+<div class="container hyperlink-wrapper" xmlns="http://www.w3.org/1999/html">
 
-  <h4> Selected Publications</h4> <br>
-
-
-		View 
-		<a target="_blank"
-			href="https://scholar.google.com/citations?user=0LAAG-4AAAAJ">
-				Google Scholar
-		</a> or 
-		<a target="_blank"
-			href="https://orcid.org/0000-0002-0100-0227">
-				ORCID
-		</a> for a complete listing of citations and work.
+  <h4> Selected Publications</h4>
+		View <a target="_blank" href="https://scholar.google.com/citations?user=0LAAG-4AAAAJ"> Google Scholar</a> or <a target="_blank" href="https://orcid.org/0000-0002-0100-0227"> ORCID</a> for a complete listing of citations and work.
 
 	<div class="container-fluid">
 
@@ -42,7 +32,7 @@ group: publications
 		</div>
 		<ul class="col-sm-6" style="list-style-type:none;">
 			<br>
-			<h6>Access the paper</h6>
+			<h6> <strong>Access the paper</strong></h6>
 			<!--PMID-->
 			{% if publication.pmid %}
 			<li>
@@ -88,7 +78,7 @@ group: publications
 
 			<!-- PDF -->
 			{% if publication.journal %}
-			<li><img class="inline-bloc mem-icon" src="/static/img/logos/PDF.svg" alt="PDF"><a href="{{publication.pdf}}" alt = "PDF"> Full Text</a></li>
+			<li><img class="inline-bloc mem-icon" src="/static/img/logos/PDF.svg" alt="PDF"> <a href="{{publication.pdf}}" alt = "PDF"> Full Text</a></li>
 			{% endif %}
 
 
@@ -173,9 +163,9 @@ group: publications
 		<!--additional links - optional-->
 		{% if publication.links %}
 		<br>
-		<h6>Additional Link{% if publication.links.size > 1 %}s{% endif %}</h6>
+			<h6><strong>Additional Link{% if publication.links.size > 1 %}s{% endif %}</strong></h6>
 			{% for link in publication.links %}
-			<li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
+			<li><img class="inline-bloc mem-icon" src="/static/img/logos/bullet.png" alt="bullet"> <a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
 			{% endfor %}
 			{% endif %}
 		</ul>

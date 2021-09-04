@@ -15,9 +15,7 @@ group: members
     <div id="{{member.name}}" class="row pb-4">
         
         <div class="col-sm-8">
-            <img class="img-fluid"
-            src="{{member.image}}" {% if member.altimage %} onmouseover="this.src='{{member.altimage}}';" 
-            onmouseout="this.src='{{member.image}}';" {% endif %} alt="{{member.name}}"; >
+            <img class="img-fluid" src="{{member.image}}" alt="{{member.name}}" />
         </div>
     <!-- end of col-sm-12 -->
     
@@ -72,9 +70,7 @@ group: members
     <div id="{{member.name}}" class="row pb-4">
         <div class="col-sm-3">
             {% if member.image %}
-            <img 
-            class="img-fluid" 
-            src="{{member.image}}" {% if member.altimage %} onmouseover="this.src='{{member.altimage}}';" onmouseout="this.src='{{member.image}}';" {% endif %} alt="{{member.name}}"; width="365"; height="365" />
+            <img class="img-fluid" src="{{member.image}}"  alt="{{member.name}}" />
             {% endif %}
         </div>
         <div class="col-sm-3">
@@ -150,7 +146,7 @@ group: members
     <div id="{{member.name}}" class="row pb-4">
         <div class="col-sm-3">
             {% if member.image %}
-            <img class="img-fluid" src="{{member.image}}" {% if member.altimage %} onmouseover="this.src='{{member.altimage}}';" onmouseout="this.src='{{member.image}}';" {% endif %} alt="{{member.name}}"; width="365"; height="365" />
+            <img class="img-fluid" src="{{member.image}}"  alt="{{member.name}}" />
             {% endif %}
         </div>
         <div class="col-sm-3">
@@ -204,7 +200,7 @@ group: members
     <div id="{{member.name}}" class="row pb-4">
         <div class="col-sm-3">
             {% if member.image %}
-            <img class="img-fluid" src="{{member.image}}" {% if member.altimage %} onmouseover="this.src='{{member.altimage}}';" onmouseout="this.src='{{member.image}}';" {% endif %} alt="{{member.name}}"; width="365"; height="365" />
+            <img class="img-fluid" src="{{member.image}}"  alt="{{member.name}}" />
             {% endif %}
         </div>
         <div class="col-sm-3">
@@ -259,7 +255,7 @@ group: members
     <div id="{{member.name}}" class="row pb-5">
         <div class="col-sm-3">
             {% if member.image %}
-            <img class="img-fluid" src="{{member.image}}" {% if member.altimage %} onmouseover="this.src='{{member.altimage}}';" onmouseout="this.src='{{member.image}}';" {% endif %} alt="{{member.name}}"; width="365"; height="365" />
+            <img class="img-fluid" src="{{member.image}}" alt="{{member.name}}" />
             {% endif %}
         </div>
         <div class="col-sm-3">

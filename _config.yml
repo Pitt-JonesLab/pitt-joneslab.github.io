@@ -29,13 +29,11 @@ collections:
                 output: true
         publications:
                 output: true
-        undergrads-cbee:
+        undergrads:
                 output: true
-        undergrads-csee:
+        grads-phd:
                 output: true
-        grads-cbee:
-                output: true
-        grads-csee:
+        grads-ms:
                 output: true
         alumni-bottom:
                 output: true

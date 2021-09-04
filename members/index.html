@@ -15,7 +15,7 @@ group: members
     <div id="{{member.name}}" class="row pb-4">
         
         <div class="col-sm-8">
-            <img class="img-fluid" style="width: 100%;" 
+            <img class="img-fluid"
             src="{{member.image}}" {% if member.altimage %} onmouseover="this.src='{{member.altimage}}';" 
             onmouseout="this.src='{{member.image}}';" {% endif %} alt="{{member.name}}"; >
         </div>

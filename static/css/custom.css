@@ -144,6 +144,10 @@ body {
   padding: unset;
 }
 
+.member-wrapper .img-fluid {
+  width: 100%;
+}
+
 /*
 body {
   padding-top: 60px;

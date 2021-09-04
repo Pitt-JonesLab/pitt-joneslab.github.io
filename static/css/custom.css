@@ -103,6 +103,8 @@ body {
   justify-content: center;
   align-items: center;
   padding: unset;
+  border-top: 1px solid gray;
+  padding-top: 15px;
 }
 
 .social-tags li {

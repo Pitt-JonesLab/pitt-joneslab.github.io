@@ -132,10 +132,11 @@ body {
   text-transform: uppercase;
   border-bottom: 1px solid #dddddd;
   padding-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .member-wrapper {
-  margin: 30px 0;
+  margin: 45px 0;
 }
 
 /*

@@ -4,11 +4,13 @@ body {
 
 .hyperlink-wrapper a {
   color: #007176 !important;
+    text-decoration: underline;
 }
 
 .hyperlink-wrapper a:hover, .hyperlink-wrapper a:visited, .hyperlink-wrapper a:active {
   color: #000000 !important;
   text-decoration: none;
+    background-color: lightgrey;
 }
 
 .paral {

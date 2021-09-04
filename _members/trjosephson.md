@@ -1,7 +1,7 @@
 ---
 name: Tyler R. Josephson, Ph.D.
 pronouns: he/him/his
-position: Assistant Professor @ CBEE
+position1: Assistant Professor @ CBEE
 position2: Affiliate Faculty Member @ CSEE
 startdate: 2019-08-01
 enddate: YYYY-MM-DD

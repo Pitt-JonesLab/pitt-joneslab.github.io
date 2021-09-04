@@ -8,6 +8,6 @@ image: '/static/img/pub/2019_partial molar properties.png'
 pdf: '/static/pdf/publications/trjosephson_2019.pdf'
 
 links:
-- name: Supporting information
+- name: Supporting Information
   url:  https://www.tandfonline.com/doi/suppl/10.1080/00268976.2019.1648898
 ---

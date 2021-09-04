@@ -82,11 +82,11 @@ a:hover, a:visited, a:active {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:visited {
-  color: #cccccc;
+  color: #cccccc !important;
 }
 
 .nav-item .active .nav-link, .navbar-brand {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .navbar-contact {
@@ -118,8 +118,12 @@ a:hover, a:visited, a:active {
   padding: 0 10px;
 }
 
+.social-tags li a {
+  color: #000000 !important;
+}
+
 .social-tags li a:hover {
-  color : grey;
+  color : grey !important;
 }
 
 .social-tags .svg-inline--fa {

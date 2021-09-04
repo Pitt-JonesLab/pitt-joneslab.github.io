@@ -3,23 +3,19 @@ title: ATOMS Lab Members
 layout: members
 group: members
 ---
+<p>
+    Our lab welcomes applicants from any race, ethnicity, religion, national origin, gender identity, gender expression, caregiver and family commitments, political affiliation, sexual orientation, and eligible age or disability status.
+    Furthermore, we are committed to maintaining a supportive and collaborative lab environment. <strong>See more about <a href="/static/docs/ATOMS_Lab_Policies.pdf">our lab policies</a>.</strong>
+</p>
 
-<br>
-Our lab welcomes applicants from any race, ethnicity, religion, national origin, gender identity, gender expression, caregiver and family commitments, political affiliation, sexual orientation, and eligible age or disability status.
-Furthermore, we are committed to maintaining a supportive and collaborative lab environment.
-<br>
-<strong>See more about <a href="/static/docs/ATOMS_Lab_Policies.pdf">our lab policies</a>.</strong>
-<br>
-<br>
-<br>
 <h4> PRINCIPAL INVESTIGATOR </h4>
 {% for member in site.members %}
   <hr>
         <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
-<div id = "{{member.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
+<div id="{{member.name}}" class="row">
 
 <div class="col-sm-8">
-  <img class="img-fluid" 
+  <img class="img-fluid" style="width: 100%;" 
   src="{{member.image}}" {% if member.altimage %} onmouseover="this.src='{{member.altimage}}';" 
   onmouseout="this.src='{{member.image}}';" {% endif %} alt="{{member.name}}"; >
 </div>
@@ -63,22 +59,18 @@ Furthermore, we are committed to maintaining a supportive and collaborative lab 
 </div>
   <!-- end of col-sm-4 -->
 
-<div class="col-sm-8">
-  <p class="text-justify">{{member.description | markdownify}}</p>
+<div class="col-sm-8" style="text-align: justify;">
+  {{member.description | markdownify}}
 </div>
 <!-- end of col-sm-8 -->
 
 </div>
 {% endfor %}
 
-<br>
-<br>
-<br>
-
 <h4>GRADUATE STUDENTS</h4>
 {% for member in site.grads-phd %}
 <hr>
-<div id = "{{member.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
+<div id = "{{member.name}}" class="row">
     <div class="col-sm-3">
         {% if member.image %}
         <img class="img-fluid" src="{{member.image}}" {% if member.altimage %} onmouseover="this.src='{{member.altimage}}';" onmouseout="this.src='{{member.image}}';" {% endif %} alt="{{member.name}}"; width="365"; height="365"><br>
@@ -127,12 +119,10 @@ Furthermore, we are committed to maintaining a supportive and collaborative lab 
     </div>
 </div>
 {% endfor %}
-<br>
-<br>
 
 {% for member in site.grads-ms %}
 
-<div id = "{{member.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
+<div id="{{member.name}}" class="row">
     <div class="col-sm-3">
         {% if member.image %}
         <img class="img-fluid" src="{{member.image}}" {% if member.altimage %} onmouseover="this.src='{{member.altimage}}';" onmouseout="this.src='{{member.image}}';" {% endif %} alt="{{member.name}}"; width="365"; height="365"><br>
@@ -181,14 +171,11 @@ Furthermore, we are committed to maintaining a supportive and collaborative lab 
     </div>
 </div>
 {% endfor %}
-<br>
-<br>
-<br>
 
 <h4>UNDERGRADUATE STUDENTS</h4>
 <hr>
 {% for member in site.undergrads %}
-<div id = "{{member.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
+<div id="{{member.name}}" class="row">
     <div class="col-sm-3">
         {% if member.image %}
         <img class="img-fluid" src="{{member.image}}" {% if member.altimage %} onmouseover="this.src='{{member.altimage}}';" onmouseout="this.src='{{member.image}}';" {% endif %} alt="{{member.name}}"; width="365"; height="365"><br>
@@ -236,20 +223,12 @@ Furthermore, we are committed to maintaining a supportive and collaborative lab 
         {% endif %}
     </div>
 </div>
-<br>
-<br>
 {% endfor %}
-
-
-
-<br>
-<br>
-<br>
 
 <h4>ALUMNI</h4>
 <hr>
 {% for member in site.alumni-bottom %}
-<div id = "{{member.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
+<div id = "{{member.name}}" class="row">
     <div class="col-sm-3">
         {% if member.image %}
         <img class="img-fluid" src="{{member.image}}" {% if member.altimage %} onmouseover="this.src='{{member.altimage}}';" onmouseout="this.src='{{member.image}}';" {% endif %} alt="{{member.name}}"; width="365"; height="365"><br>

@@ -4,7 +4,7 @@ layout: default
 group: join
 ---
 
-<div class="container px-2">
+<div class="container hyperlink-wrapper">
 <div class="row">
 <div class="col">
 

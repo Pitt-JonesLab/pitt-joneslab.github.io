@@ -2,13 +2,13 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-a {
+.hyperlink-wrapper a {
   color: #007176 !important;
 }
 
-a:hover, a:visited, a:active {
+.hyperlink-wrapper a:hover, .hyperlink-wrapper a:visited, .hyperlink-wrapper a:active {
   color: #000000 !important;
-  text-decoration: unset !important;
+  text-decoration: none;
 }
 
 .paral {
@@ -77,18 +77,6 @@ a:hover, a:visited, a:active {
   background-color: #000000;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5) !important;
-}
-
-.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:visited {
-  color: #cccccc !important;
-}
-
-.navbar-nav .active .nav-link, .navbar-brand {
-  color: #ffffff !important;
-}
-
 .navbar-contact {
     /* margin-bottom: 20px; */
     position: relative;
@@ -119,11 +107,11 @@ a:hover, a:visited, a:active {
 }
 
 .social-tags li a {
-  color: #000000 !important;
+  color: #000000;
 }
 
 .social-tags li a:hover {
-  color : grey !important;
+  color : grey;
 }
 
 .social-tags .svg-inline--fa {

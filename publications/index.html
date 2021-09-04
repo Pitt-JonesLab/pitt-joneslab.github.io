@@ -165,7 +165,7 @@ group: publications
 		<br>
 			<h6><strong>Additional Link{% if publication.links.size > 1 %}s{% endif %}</strong></h6>
 			{% for link in publication.links %}
-			<li><img class="inline-bloc mem-icon" src="/static/img/logos/bullet.png" alt="bullet"> <a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
+			<li><img class="inline-bloc mem-icon" src="/static/img/logos/info.svg" alt="Supporting Information"> <a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
 			{% endfor %}
 			{% endif %}
 		</ul>

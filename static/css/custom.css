@@ -91,6 +91,10 @@ body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
+.contact-address {
+  list-style-type: none;
+  padding: unset;
+}
 
 .social-tags {
   list-style-type: none;

@@ -18,6 +18,6 @@
   link: "/join"
   group: join
 
-- name: CONTACT
-  link: "/contact"
-  group: contact
+# - name: CONTACT
+#   link: "/contact"
+#   group: contact

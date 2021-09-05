@@ -1,6 +1,6 @@
 # atoms-lab.github.io
 ====================
-<br> This website is built using template from the <a href="https://fraserlab.com/2020/05/03/Clone-this-website/">Fraser Lab</a>.
+<br> This website is built using template from the <a href="https://fraserlab.com/2020/05/03/Clone-this-website/">Fraser Lab</a> and <a href="http://www.allanlab.org/aboutwebsite.html"> Allan Lab</a>.
 
 Technologies this website uses:  
 

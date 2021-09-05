@@ -104,6 +104,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: unset;
+    font-size: 3rem
 }
 
 .social-tags li {

@@ -14,11 +14,11 @@ body {
 }
 
 .paral {
-    height: 400px;
+    height: 450px;
     background-size: cover;
-    background-position: center;
+    background-position-y: inherit;
+    background-position-x: center;
 }
-
 
 
 .pubimg {

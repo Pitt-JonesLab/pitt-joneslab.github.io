@@ -10,7 +10,7 @@ group: join
 
 Our lab welcomes applicants from any race, ethnicity, religion, national origin, gender identity, gender expression, caregiver and family commitments, political affiliation, sexual orientation, and eligible age or disability status. Furthermore, we are committed to maintaining a supportive and collaborative lab environment.
 
-##### See more about <a href="/static/docs/ATOMS_Lab_Policies.pdf"> our lab policies</a>.
+##### See more about <a target="_blank" href="/static/docs/ATOMS_Lab_Policies.pdf"> our lab policies</a>.
 
 <h3>Undergraduate Students</h3>
 Students majoring in Chemical Engineering and/or Computer Science are encouraged to apply.
@@ -37,11 +37,11 @@ To write this well, I suggest you look at some of our papers from the last few y
 
 
 <h3>Graduate Students</h3>
-Students interested in pursuing a Ph.D. should apply to <a href="https://cbee.umbc.edu/academics/prospective-graduate-students/">UMBC CBEE doctoral programs</a>. Admission is determined by the department faculty committee where students are either admitted as *direct admits* or *general admits*.
+Students interested in pursuing a Ph.D. should apply to <a target="_blank" href="https://cbee.umbc.edu/academics/prospective-graduate-students/">UMBC CBEE doctoral programs</a>. Admission is determined by the department faculty committee where students are either admitted as *direct admits* or *general admits*.
 
 Direct admit students have agreed to work in a particular faculty’s research lab upon their arrival at UMBC, and the faculty has agreed to serve as the student’s dissertation advisor and provide funding. 
 
-General admit students go through research rotations in their first year, which allows students to clarify student-faculty interest and develop optimal student-faculty matches. Learn more about <a href="/static/docs/ATOMS_Lab_Rotation_Plan.pdf">rotations in the ATOMS lab</a>.
+General admit students go through research rotations in their first year, which allows students to clarify student-faculty interest and develop optimal student-faculty matches. Learn more about <a target="_blank" href="/static/docs/ATOMS_Lab_Rotation_Plan.pdf">rotations in the ATOMS lab</a>.
 
 If you're interested in Ph.D. with either direct or general admit, or in thesis or project-based masters research (majoring in Chem E and/or CS), reach out to Prof. Josephson by <a href="mailto:tjo@umbc.edu">email</a> with your:  (1) CV, (2) a description of research experience and interests, and (3) specific information about why the ATOMS Lab interests you.
 <br>

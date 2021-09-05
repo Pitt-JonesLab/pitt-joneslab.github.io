@@ -31,6 +31,8 @@ collections:
                 output: true
         undergrads:
                 output: true
+        new:
+                output: true
         grads-phd:
                 output: true
         grads-ms:

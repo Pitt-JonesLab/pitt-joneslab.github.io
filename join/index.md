@@ -47,7 +47,7 @@ If you're interested in Ph.D. with either direct or general admit, or in thesis 
 <br>
 
 <h3>Postdoctoral Fellows</h3>
-If you're interested in a postdoc position, <a href="mailto:tjo@umbc.edu">reach out </a> directly to Prof. Josephson with your CV and statement of research interests and background.
+If you're interested in a postdoc position, <a href="mailto:tjo@umbc.edu"> reach out</a> to Prof. Josephson with your CV and statement of research interests and background.
 <br>
 
 **Student testimonials:** <br>

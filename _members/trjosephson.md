@@ -1,8 +1,8 @@
 ---
 name: Tyler R. Josephson, Ph.D.
 pronouns: he/him/his
-position1: Assistant Professor @ CBEE
-position2: Affiliate Faculty Member @ CSEE
+position1: Assistant Professor @ <a target="_blank" href="https://cbee.umbc.edu/">CBEE </a>
+position2: Affiliate Faculty Member @ <a target="_blank" href="https://csee.umbc.edu/"> CSEE</a>
 startdate: 2019-08-01
 enddate: YYYY-MM-DD
 image: /static/img/members/trjosephson-2.png

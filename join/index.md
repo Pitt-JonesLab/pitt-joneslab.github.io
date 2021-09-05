@@ -33,7 +33,7 @@ Apart from attendance at weekly group meetings, students are free to work accord
 
 **How do I apply?** <br>
 If you’re interested in applying for a lab position or for research credit, you must read <a href="/static/docs/...">ATOMS Lab Undergraduate Research Agreement</a> carefully to make sure you understand what’s involved. Then include in a single email: (1) your resume (PDF), (2) unofficial copy of your transcript (PDF); freshman can send high school transcript (PDF), and (3) one page or less explaining why you’d like to work in our lab (PDF). <br>
-To write this well, I suggest you look at some of our papers from the last few years to orient yourself to our current projects. Make the subject of your email “Undergrad Application” and <a href="mailto:tjo@umbc.edu">send this to Prof. Josephson</a>. 
+To write this well, I suggest you look at some of our papers from the last few years to orient yourself to our current projects. Make the subject of your <a href="mailto:tjo@umbc.edu">email</a> “Undergrad Application” and send this to Prof. Josephson. 
 
 
 <h3>Graduate Students</h3>

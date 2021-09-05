@@ -9,6 +9,6 @@ pdf: '/static/pdf/publications/trjosephson_2018.pdf'
 
 links:
 - name: Supporting Information
-  url: https://pubs.acs.org/doi/10.1021/acscatal.8b01615
+  url: https://www.science.org/doi/10.1126/sciadv.aav5487
 ---
 

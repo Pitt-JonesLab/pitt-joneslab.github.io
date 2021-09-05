@@ -14,16 +14,10 @@ body {
 }
 
 .paral {
-    height: 300px;
+    height: 350px;
     background-size: cover;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* text-align: center; */
-    /* background-repeat: no-repeat; */
     background-size: cover;
     background-position: center;
-    /* background-position: 50% 50%; */
 }
 
 
@@ -138,7 +132,7 @@ body {
 }
 
 .member-wrapper {
-  margin: 45 px 0;
+  margin:  90px 0;
 }
 
 .member-information {

@@ -8,7 +8,7 @@ image: '/static/img/pub/2017_ sn beta zeo.jpeg'
 pdf: '/static/pdf/publications/trjosephson_2017.pdf'
 
 links:
-- name: Supplementary Data (include MOL files and InChiKeys)
+- name: Supplementary Materials (include MOL files and InChiKeys)
   url: http://dx.doi.org/10.1016/j.micromeso.2017.02.065
 
 ---

@@ -8,7 +8,7 @@ image: '/static/img/pub/2018_fructose.png'
 pdf: '/static/pdf/publications/trjosephson_2018.pdf'
 
 links:
-- name: Supporting Information
-  url: https://www.science.org/doi/10.1126/sciadv.aav5487
+- name: Supplementary Materials (include molecular structure files)
+  url: https://pubs.acs.org/doi/suppl/10.1021/acscatal.8b01615/suppl_file/cs8b01615_si_001.pdf
 ---
 

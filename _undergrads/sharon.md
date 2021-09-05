@@ -4,7 +4,7 @@ pronouns: she/her/hers
 startdate: 2020-12-20
 enddate: YYYY-MM-DD
 image: /static/img/members/sharonliu.png
-position: CSEE
+position: Senior, CSEE
 email: s120  [at]  umbc.edu
 twitter: 
 linkedin: 

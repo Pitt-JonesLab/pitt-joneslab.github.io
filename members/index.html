@@ -12,13 +12,13 @@ group: members
 <div class="member-wrapper">
     <h4>Principal Investigator</h4>
     {% for member in site.members %}
-    <div id="{{member.name}}" class="row pb-4">
-        <div class="col-sm-8">
+    <div id="{{member.name}}" class="row pb-5">
+        <div class="col-sm-9">
             <img class="img-fluid" src="{{member.image}}" alt="{{member.name}}" />
         </div>
     <!-- end of col-sm-12 -->
 
-        <div class="col-sm-4">
+        <div class="col-sm-3">
             <ul class="member-information">
                 <li>
                     <strong>{{member.name}}</strong>
@@ -83,7 +83,7 @@ group: members
 
         </div>
 
-        <div class="col-sm-8" style="text-align: justify; margin-top: 20px;">
+        <div class="col-sm-9" style="text-align: justify; margin-top: 20px;">
             {{member.description | markdownify}}
         </div>
 
@@ -94,7 +94,7 @@ group: members
 <div class="member-wrapper">
     <h4>Graduate Students</h4>
     {% for member in site.grads-phd %}
-    <div id="{{member.name}}" class="row pb-4">
+    <div id="{{member.name}}" class="row pb-5">
         <div class="col-sm-3">
             {% if member.image %}
             <img class="img-fluid" src="{{member.image}}"  alt="{{member.name}}" />
@@ -172,7 +172,7 @@ group: members
     
     {% for member in site.grads-ms %}
 
-    <div id="{{member.name}}" class="row pb-4">
+    <div id="{{member.name}}" class="row pb-5">
         <div class="col-sm-3">
             {% if member.image %}
             <img class="img-fluid" src="{{member.image}}"  alt="{{member.name}}" />
@@ -251,7 +251,7 @@ group: members
 <div class="member-wrapper">
     <h4>Undergraduate Students</h4>
     {% for member in site.undergrads %}
-    <div id="{{member.name}}" class="row pb-4">
+    <div id="{{member.name}}" class="row pb-5">
         <div class="col-sm-3">
             {% if member.image %}
             <img class="img-fluid" src="{{member.image}}"  alt="{{member.name}}" />
@@ -332,7 +332,7 @@ group: members
 </div>
 
 {% for member in site.new %}
-<div id="{{member.name}}" class="row pb-4">
+<div id="{{member.name}}" class="row pb-5">
     <div class="col-sm-3">
         {% if member.image %}
         <img class="img-fluid" src="{{member.image}}"  alt="{{member.name}}" />
@@ -415,7 +415,7 @@ group: members
 <div class="member-wrapper">
     <h4>Alumni</h4>
     {% for member in site.alumni-bottom %}
-    <div id="{{member.name}}" class="row pb-4">
+    <div id="{{member.name}}" class="row pb-5">
         <div class="col-sm-3">
             {% if member.image %}
             <img class="img-fluid" src="{{member.image}}" alt="{{member.name}}" />

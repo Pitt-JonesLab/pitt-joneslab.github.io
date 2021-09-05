@@ -11,9 +11,10 @@ group: join
 Our lab welcomes applicants from any race, ethnicity, religion, national origin, gender identity, gender expression, caregiver and family commitments, political affiliation, sexual orientation, and eligible age or disability status. Furthermore, we are committed to maintaining a supportive and collaborative lab environment.
 
 ##### See more about <a href="/static/docs/ATOMS_Lab_Policies.pdf"> our lab policies</a>.
-<br>
-### Undergraduate Students 
-Students majoring in Chemical Engineering and/or Computer Science are encouraged to apply. 
+
+<h3>Undergraduate Students</h3>
+Students majoring in Chemical Engineering and/or Computer Science are encouraged to apply.
+
 - Previous research experience is *not* required.
 - Students must be able to work an average of 10 hour per week.
 - Demonstrated leadership and collaboration experience is a plus.
@@ -34,11 +35,9 @@ Apart from attendance at weekly group meetings, students are free to work accord
 If you’re interested in applying for a lab position or for research credit, you must read <a href="/static/docs/...">ATOMS Lab Undergraduate Research Agreement</a> carefully to make sure you understand what’s involved. Then include in a single email: (1) your resume (PDF), (2) unofficial copy of your transcript (PDF); freshman can send high school transcript (PDF), and (3) one page or less explaining why you’d like to work in our lab (PDF). <br>
 To write this well, I suggest you look at some of our papers from the last few years to orient yourself to our current projects. Make the subject of your email “Undergrad Application” and <a href="mailto:tjo@umbc.edu">send this to Prof. Josephson</a>. 
 
-<br>
 
-###Graduate Students
-
-Students interested in pursuing a Ph.D. should apply to<a href="https://cbee.umbc.edu/academics/prospective-graduate-students/"> UMBC CBEE doctoral programs</a>. Admission is determined by the department faculty committee where students are either admitted as *direct admits* or *general admits*.
+<h3>Graduate Students</h3>
+Students interested in pursuing a Ph.D. should apply to <a href="https://cbee.umbc.edu/academics/prospective-graduate-students/">UMBC CBEE doctoral programs</a>. Admission is determined by the department faculty committee where students are either admitted as *direct admits* or *general admits*.
 
 Direct admit students have agreed to work in a particular faculty’s research lab upon their arrival at UMBC, and the faculty has agreed to serve as the student’s dissertation advisor and provide funding. 
 
@@ -47,7 +46,7 @@ General admit students go through research rotations in their first year, which 
 If you're interested in Ph.D. with either direct or general admit, or in thesis or project-based masters research (majoring in Chem E and/or CS), reach out to Prof. Josephson by <a href="mailto:tjo@umbc.edu">email</a> with your:  (1) CV, (2) a description of research experience and interests, and (3) specific information about why the ATOMS Lab interests you.
 <br>
 
-### Postdoctoral Fellows
+<h3>Postdoctoral Fellows</h3>
 Interested postdocs should <a href="mailto:tjo@umbc.edu">email</a> directly to Prof. Tyler R. Josephson with CV and statement of your research interests and background.
 <br>
 

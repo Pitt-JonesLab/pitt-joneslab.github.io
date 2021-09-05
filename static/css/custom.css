@@ -91,6 +91,9 @@ body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
+#footer {
+  border-top: 1px solid #dddddd;
+}
 .contact-address {
   list-style-type: none;
   padding: unset;
@@ -102,7 +105,6 @@ body {
   justify-content: center;
   align-items: center;
   padding: unset;
-  border-top: 1px solid gray;
   padding-top: 15px;
 }
 
@@ -112,11 +114,11 @@ body {
 }
 
 .social-tags li a {
-  color: #000000;
+  color: #000000 !important;
 }
 
 .social-tags li a:hover {
-  color : grey;
+  color : grey !important;
 }
 
 .social-tags .svg-inline--fa {

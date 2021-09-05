@@ -9,5 +9,5 @@ subsequent: PhD Student @ <a target="_blank" href= "https://chbe.illinois.edu/">
 twitter: trannghia207
 linkedin: trannghia
 github: trannghia207
-description: Neil is currently a ChBE graduate student at UIUC, Illinois. He is passionate about computational technology and applying new methods of machine learning and AI for science discovery. Beside science, he loves music, video games and road trips.
+description: Neil received his B.S. in Chemical Engineering from UMBC and is currently pursuing his Ph.D. at UIUC, Illinois. He is passionate about computational technology and applying new methods of machine learning and AI for science discovery. Beside science, he loves music, video games and road trips.
 ---

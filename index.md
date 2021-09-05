@@ -4,7 +4,7 @@ layout: home
 group: home
 ---
 <br>
-**ATOMS Lab** at UMBC is led by Professor <a target="_blank" href="https://cbee.umbc.edu/josephson/">Tyler R. Josephson</a>. <br>
+The **ATOMS Lab** at UMBC is led by Professor <a target="_blank" href="https://cbee.umbc.edu/josephson/">Tyler R. Josephson</a>. <br>
 We use and develop molecular simulation techniques and artificial intelligence tools to gain molecular-scale insights on processes in the environment to enable new solutions for cleaner air and water.
 
 **Interested in joining the ATOMS Lab?**

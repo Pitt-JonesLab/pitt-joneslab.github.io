@@ -96,15 +96,15 @@ body {
 .contact-address-right {
   list-style-type: none;
   padding: unset;
-    font-size: 0.8rem;
-    text-align: right
+    font-size: 0.8rem !important;;
+    text-align: right !important
 }
 
 .contact-address-left {
     list-style-type: none;
     padding: unset;
-    font-size: 0.8rem;
-    text-align: left
+    font-size: 0.8rem !important;;
+    text-align: left !important
 }
 
 .social-tags {

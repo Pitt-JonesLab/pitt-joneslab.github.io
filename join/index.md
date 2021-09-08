@@ -32,7 +32,7 @@ The ATOMS Lab is focused on developing and using computational chemistry and art
 Apart from attendance at weekly group meetings, students are free to work according to a flexible schedule. So far during COVID, all work has been remote, though we do have a lab office under construction for future use.
 
 **How do I apply?** <br>
-If you’re interested in applying for a lab position or for research credit, you must read <a href="/static/docs/...">ATOMS Lab Undergraduate Research Agreement</a> carefully to make sure you understand what’s involved. Then include in a single email: (1) your resume (PDF), (2) unofficial copy of your transcript (PDF); freshman can send high school transcript (PDF), and (3) one page or less explaining why you’d like to work in our lab (PDF). <br>
+If you’re interested in applying for a lab position or for research credit, you must read <a target="_blank" href="/static/docs/ATOMS Lab_student_expectations.pdf">ATOMS Lab Undergraduate Research Agreement</a> carefully to make sure you understand what’s involved. Then include in a single email: (1) your resume (PDF), (2) unofficial copy of your transcript (PDF); freshman can send high school transcript (PDF), and (3) one page or less explaining why you’d like to work in our lab (PDF). <br>
 To write this well, I suggest you look at some of our papers from the last few years to orient yourself to our current projects. Make the subject of your <a href="mailto:tjo@umbc.edu">email</a> “Undergrad Application” and send this to Prof. Josephson. 
 
 
@@ -55,3 +55,6 @@ If you're interested in a postdoc position, reach out to Prof. Josephson by <a h
 
 Page content inspired by <a target="_blank" href="https://martenlab.umbc.edu/opportunities/"> Marten Lab @CBEE_UMBC</a>
 
+</div>
+</div>
+</div>

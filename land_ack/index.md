@@ -1,8 +1,12 @@
 ---
-#title: Land Acknowledgement Statement
-#layout: default
+title: Land Acknowledgement Statement
+layout: default
 group: land_ack
 ---
+
+<div class="container hyperlink-wrapper">
+<div class="row">
+<div class="col">
 
 ## Land Acknowledgement Statement
 
@@ -12,3 +16,6 @@ group: land_ack
             Learn more about <a target="_blank" href="https://oei.umbc.edu/land-acknowledgement-statement/">this statement</a>. </p>
 </div>
 
+</div>
+</div>
+</div>

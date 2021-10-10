@@ -7,7 +7,7 @@ startdate: 2019-08-01
 enddate: YYYY-MM-DD
 image: /static/img/members/trjosephson-2.png
 email: tjo  [at]  umbc.edu
-scholar: 0LAAG-4AAAAJ
+scholar: vh4T9PAAAAAJ
 website:  https://tylerjosephson.com/
 twitter: trjosephson
 linkedin: trjosephson

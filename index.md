@@ -5,8 +5,9 @@ group: home
 ---
 <br>
 The **ATOMS Lab** at UMBC is led by Professor <a target="_blank" href="https://cbee.umbc.edu/josephson/">Tyler R. Josephson</a>. <br>
-In chemistry, the fundamental building blocks are atoms <a target="_blank" href="https://en.m.wikipedia.org/wiki/Atom">; from their interactions emerge molecules, materials, and their properties. <br> 
-In mathematical logic, fundamental assumptions are also called atoms <a target="_blank" href="https://en.m.wikipedia.org/wiki/Atomic_formula">; from these, proofs, lemmas, and theorems are derived. <br>
+
+In chemistry, the fundamental building blocks are <a target="_blank" href="https://en.m.wikipedia.org/wiki/Atom"> atoms</a>; from their interactions emerge molecules, materials, and their properties. <br> 
+In mathematical logic, fundamental assumptions are also called <a target="_blank" href="https://en.m.wikipedia.org/wiki/Atomic_formula"> atoms</a>; from these, proofs, lemmas, and theorems are derived. <br>
 
 The ATOMS Lab brings together chemical engineers, computer scientists, and mathematicians as we equip computers to reason about and discover theories in molecular science.
 

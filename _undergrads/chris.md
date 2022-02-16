@@ -1,5 +1,5 @@
 ---
-name: Christopher Hamer
+name: Sophia Hamer
 pronouns:
 startdate: 
 enddate: YYYY-MM-DD
@@ -8,6 +8,6 @@ position: Senior, CSEE
 email: chamer1  [at]  umbc.edu
 twitter: 
 linkedin:
-github: chris-hamer
+github: 
 description:
 ---

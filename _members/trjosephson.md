@@ -1,5 +1,5 @@
 ---
-name: <a href="https://www.name-coach.com/tyler-josephson">Tyler R. Josephson</a>, Ph.D.
+name: Tyler R. Josephson, Ph.D. 
 pronouns: he/him/his
 position1: Assistant Professor @ <a target="_blank" href="https://cbee.umbc.edu/">CBEE </a>
 position2: Affiliate Faculty Member @ <a target="_blank" href="https://csee.umbc.edu/"> CSEE</a>

@@ -5,6 +5,7 @@ startdate: 2021-22-07
 enddate: YYYY-MM-DD
 image: /static/img/members/jinyuhuang.png
 position: BS CBEE, Fall 2022
+subsequent: 
 pronouns: he/him/his
 email: jhuang4  [at]  umbc.edu
 twitter: IAmIcesolate

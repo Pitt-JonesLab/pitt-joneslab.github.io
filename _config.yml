@@ -37,8 +37,9 @@ collections:
                 output: true
         grads-ms:
                 output: true
-        alumni-bottom:
-                output: true
         interns:
                 output: true
+        alumni-bottom:
+                output: true
+        
 

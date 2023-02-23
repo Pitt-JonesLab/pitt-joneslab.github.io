@@ -6,7 +6,7 @@ enddate: YYYY-MM-DD
 image: /static/img/members/charlesfox.png
 position: MS CSEE, Summer 2022
 subsequent: Machine Learning Engineer @ <a target="_blank" href= "https://covar.com/">CoVar </a>
-email: charfox1[at]umbc.edu
+email: charfox1 [at] umbc.edu
 twitter: CharlieFoxML
 github: CharFox1
 linkedin: charlesfoxml

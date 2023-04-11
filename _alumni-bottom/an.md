@@ -4,7 +4,7 @@ pronouns: she/her/hers
 startdate: 2020-07-01
 enddate: YYYY-MM-DD
 image: /static/img/members/an.png
-position: Sophomore, CBEE
+subsequent: Junior, CBEE
 email:  adang2 [at]  umbc.edu
 twitter: anhongdang
 linkedin: an-dang-420543199

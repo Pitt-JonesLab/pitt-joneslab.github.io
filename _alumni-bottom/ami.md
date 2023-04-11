@@ -4,7 +4,8 @@ pronouns: He/Him/His
 startdate: 2022-8-1
 enddate: YYYY-MM-DD
 image: /static/img/members/ami.png
-position: High School Senior 
+position: High School Senior
+subsequent: 
 email: amiashman8  [at]  gmail.com
 website: www.amiashman.dev
 linkedin: ami-ashman-2642ab267

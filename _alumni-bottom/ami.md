@@ -1,11 +1,10 @@
 ---
 name: Ami Ashman
-pronouns: He/Him/His
+pronouns: he/him/his
 startdate: 2022-8-1
 enddate: YYYY-MM-DD
 image: /static/img/members/ami.png
-position: High School Senior
-subsequent: 
+subsequent: High School Senior
 email: amiashman8  [at]  gmail.com
 website: www.amiashman.dev
 linkedin: ami-ashman-2642ab267

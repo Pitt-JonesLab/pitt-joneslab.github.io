@@ -1,6 +1,6 @@
 ---
 name: Max Bobbin
-pronouns: He/Him/His
+pronouns: he/him/his
 startdate: 2022-1-17
 enddate: YYYY-MM-DD
 image: /static/img/members/max.png

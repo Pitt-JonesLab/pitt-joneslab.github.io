@@ -1,6 +1,6 @@
 ---
 name: Kianoush Ramezani Shabolaghi
-pronouns: He/Him/His
+pronouns: he/him/his
 startdate: 2022-08-01
 enddate: YYYY-MM-DD
 image: /static/img/members/kianoush.png

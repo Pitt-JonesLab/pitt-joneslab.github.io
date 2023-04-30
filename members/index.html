@@ -418,80 +418,6 @@ group: members
     </div>
 </div>
 
-<h4>Alumni</h4>
-{% for member in site.alumni-bottom %}
-<div id="{{member.name}}" class="row pb-5">
-    <div class="col-sm-3">
-        {% if member.image %}
-        <img class="img-fluid" src="{{member.image}}" alt="{{member.name}}" />
-        {% endif %}
-    </div>
-    <div class="col-sm-9">
-        <ul class="member-information">
-            <li>
-                <strong>{{member.name}}</strong>
-            </li>
-            <li>
-                {% if member.pronouns %}
-                <em>{{member.pronouns}}</em>
-                {% endif %}
-            </li>
-            <li>
-                {{member.position}}
-            </li>
-            <li>
-                Currently: {{member.subsequent}}
-            </li>
-            <li>
-                <em>{{member.email}}</em>
-            </li>
-
-            {% if member.website %}
-            <li>
-                <a style="overflow-wrap: break-word;" target="_blank" href= "{{member.website}}">{{member.website}}</a>
-            </li>
-            {% endif %}
-
-            {% if member.orcid %}
-            <li>
-                <a target="_blank" href="http://orcid.org"><img class="inline-block mem-icon" src="/static/img/orcidid_logo.svg"></a>
-                <a target="_blank" href="http://orcid.org/{{member.orcid}}"> {{member.orcid}}</a>
-            </li>
-
-            {% endif %}
-
-            {% if member.linkedin %}
-            <li>
-                <a target="_blank" href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/lin_logo.svg"></a>
-                <a target="_blank" href= "http://www.linkedin.com/in/{{member.linkedin}}"> {{member.linkedin}} </a>
-            </li>
-            {% endif %}
-
-            {% if member.scholar %}
-            <li>
-                <a target="_blank" href="http://scholar.google.com"><img class="inline-block mem-icon" src="/static/img/gscholar_logo.svg"></a>
-                <a target="_blank" href= "http://scholar.google.com/citations?user={{member.scholar}}"> Scholar Citations </a>
-            </li>
-            {% endif %}
-
-            {% if member.twitter %}
-            <li>
-                <a target="_blank" href="http://twitter.com"><img class="inline-block mem-icon" src="/static/img/twitter2_logo.svg"></a>
-                <a target="_blank" href= "http://twitter.com/{{member.twitter}}"> @{{member.twitter}} </a>
-            </li>
-            {% endif %}
-
-            {% if member.github %}
-            <li>
-                <a target="_blank" href="http://github.com"><img class="inline-bloc mem-icon" src="/static/img/github_logo.svg"></a>
-                <a target="_blank" href= "http://github.com/{{member.github}}"> {{member.github}} </a>
-            </li>
-            {% endif %}
-        </ul>
-    </div>
-</div>
-{% endfor %}
-
 
 <!-- <div class="member-wrapper">
     <h4>High School Students</h4>
@@ -575,7 +501,7 @@ group: members
     {% endfor %}   
 </div> -->
 
-<!-- <div class="member-wrapper">
+<div class="member-wrapper">
     <h4>Alumni</h4>
     {% for member in site.alumni-bottom %}
     <div id="{{member.name}}" class="row pb-5">
@@ -660,4 +586,4 @@ group: members
 
 
    
-</div> -->
+</div>

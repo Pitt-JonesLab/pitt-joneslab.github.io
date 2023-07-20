@@ -424,47 +424,39 @@ group: members
     <div id="{{member.name}}" class="row pb-5">
         <div class="col-sm-9">
             <ul class="member-information">
-                <li>
-                    <strong>{{member.name}}</strong>
-                </li>
-                
-                <li>
-                    {{member.position}}
-                </li>
+                <p><strong>{{member.name}}</strong> - <em>{{member.position}}</em><br>
 
+                {% if member.pronouns %}
+                <em>{{member.pronouns}}</em> <br>
+                {% endif %}
+
+                {% assign start = member.startdate | date:"%Y" %}
+                {% assign end = member.enddate | date:"%Y" %}
+
+                {% if end == '' %}
+                {{member.startdate | date:"%Y"}}
+                {% endif %}
+
+                {% if start == end %}
+                {{member.startdate | date:"%Y"}}<br>
+                {% else %}
+                {{member.startdate | date:"%Y"}} - {{member.enddate | date:"%Y"}}<br>
+                {% endif %}
+              
+                
                 Subsequently: {{member.subsequent}} <br>
                 
-                <li>
-                    <em>{{member.email}}</em>
-                </li>
-                
-                {% if member.website %}
-                <li>
-                    <a style="overflow-wrap: break-word;" target="_blank" href= "{{member.website}}">{{member.website}}</a>
-                </li>
-                {% endif %}
-
-                
-
                 {% if member.linkedin %}
-                <li>
-                    <a target="_blank" href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/lin_logo.svg"></a>
-                    <a target="_blank" href= "http://www.linkedin.com/in/{{member.linkedin}}"> {{member.linkedin}} </a>
-                </li>
+                <a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/lin_logo.svg"></a>
+                <a href= "http://www.linkedin.com/in/{{member.linkedin}}"> {{member.linkedin}} </a> <br>
                 {% endif %}
-
-                {% if member.scholar %}
-                <li>
-                    <a target="_blank" href="http://scholar.google.com"><img class="inline-block mem-icon" src="/static/img/gscholar_logo.svg"></a>
-                    <a target="_blank" href= "http://scholar.google.com/citations?user={{member.scholar}}"> Scholar Citations </a>
-                </li>
-                {% endif %}
-
-                
 
                 
             </ul>
 
+        </div>
+        <div class="col-sm-3">
+            
         </div>
     </div>
     {% endfor %}

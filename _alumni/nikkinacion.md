@@ -2,7 +2,7 @@
 name: Francesca (Nikki) Nacion
 pronouns: she/her/hers
 startdate: 2020-12-20
-enddate: YYYY-MM-DD
+enddate: 2022-05-01
 image: /static/img/members/nikkinacion.png
 position: BS CBEE, Spring 2022
 subsequent: Associate Electronics Engineer @ <a target="_blank" href="https://www.northropgrumman.com/" > Northrop Grumman</a>

@@ -1,8 +1,8 @@
 ---
 name: Jinyu Huang
 pronouns: he/him/his
-startdate: 2021-22-07
-enddate: YYYY-MM-DD
+startdate: 2021-07-22
+enddate: 2022-08-01
 image: /static/img/members/jinyuhuang.png
 position: BS CBEE, Fall 2022
 subsequent: 

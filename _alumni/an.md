@@ -2,7 +2,7 @@
 name: An Hong Dang
 pronouns: she/her/hers
 startdate: 2020-07-01
-enddate: YYYY-MM-DD
+enddate: 2022-08-01
 image: /static/img/members/an.png
 subsequent: Junior, CBEE
 email:  adang2 [at]  umbc.edu

@@ -1,8 +1,8 @@
 ---
 name: Charlie Fox
 pronouns: he/him/his
-startdate: YYYY-MM-DD
-enddate: YYYY-MM-DD
+startdate: 2021-01-01
+enddate: 2023-01-01
 image: /static/img/members/charlesfox.png
 position: MS CSEE, Summer 2022
 subsequent: Machine Learning Engineer @ <a target="_blank" href= "https://covar.com/">CoVar </a>

@@ -2,7 +2,7 @@
 name: Catherine Wraback
 pronouns: she/her/hers
 startdate: 2020-12-20
-enddate: YYYY-MM-DD
+enddate: 2023-07-01
 image: /static/img/members/cwraback.png
 position: BS CBEE, Spring 2023
 subsequent: Engines Edison Engineer @ <a target="_blank" href= "https://www.geaerospace.com/">GE Aerospace </a>

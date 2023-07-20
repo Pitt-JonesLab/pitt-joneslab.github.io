@@ -1,5 +1,4 @@
 #### ALUMNI
-<!-- {% assign sorted = (site.alumni | sort: "enddate") | reverse %} -->
 {% for member in site.alumni %}
 <hr>
 

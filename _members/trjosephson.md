@@ -7,7 +7,7 @@ position1: Assistant Professor @ <a target="_blank" href="https://cbee.umbc.edu/
 position2: Affiliate Faculty Member @ <a target="_blank" href="https://csee.umbc.edu/"> CSEE</a>
 startdate: 2019-08-01
 enddate: YYYY-MM-DD
-image: /static/img/members/trjosephson-2.png
+image: /static/img/members/trjosephson3.png
 email: tjo  [at]  umbc.edu
 scholar: vh4T9PAAAAAJ
 twitter: trjosephson

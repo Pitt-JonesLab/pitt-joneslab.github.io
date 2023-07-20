@@ -1,4 +1,3 @@
-#### ALUMNI
 {% for member in site.alumni %}
 <hr>
 

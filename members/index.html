@@ -427,16 +427,16 @@ group: members
             <img class="img-fluid" src="{{member.image}}" alt="{{member.name}}" />
             {% endif %}
         </div> -->
-        <div class="col-sm-12">
+        <div class="col-sm-3">
             <ul class="member-information">
                 <li>
                     <strong>{{member.name}}</strong>
                 </li>
-                <li>
+                <!-- <li>
                     {% if member.pronouns %}
                     <em>{{member.pronouns}}</em>
                     {% endif %}
-                </li>
+                </li> -->
                 <li>
                     {{member.position}}
                 </li>
@@ -475,19 +475,19 @@ group: members
                 </li>
                 {% endif %}
 
-                {% if member.twitter %}
+                <!-- {% if member.twitter %}
                 <li>
                     <a target="_blank" href="http://twitter.com"><img class="inline-block mem-icon" src="/static/img/twitter2_logo.svg"></a>
                     <a target="_blank" href= "http://twitter.com/{{member.twitter}}"> @{{member.twitter}} </a>
                 </li>
-                {% endif %}
+                {% endif %} -->
 
-                {% if member.github %}
+                <!-- {% if member.github %}
                 <li>
                     <a target="_blank" href="http://github.com"><img class="inline-bloc mem-icon" src="/static/img/github_logo.svg"></a>
                     <a target="_blank" href= "http://github.com/{{member.github}}"> {{member.github}} </a>
                 </li>
-                {% endif %}
+                {% endif %} -->
             </ul>
         </div>
         <!-- <div class="col-sm-6">

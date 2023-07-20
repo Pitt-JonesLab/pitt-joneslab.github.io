@@ -422,12 +422,7 @@ group: members
     <h4>Alumni</h4>
     {% for member in site.alumni-bottom %}
     <div id="{{member.name}}" class="row pb-5">
-        <!-- <div class="col-sm-3">
-            {% if member.image %}
-            <img class="img-fluid" src="{{member.image}}" alt="{{member.name}}" />
-            {% endif %}
-        </div> -->
-        <div class="col-sm-3">
+        <div class="col-sm-12">
             <ul class="member-information">
                 <li>
                     <strong>{{member.name}}</strong>
@@ -490,14 +485,6 @@ group: members
                 {% endif %} -->
             </ul>
         </div>
-        <!-- <div class="col-sm-6">
-            {{member.description | markdownify}}
-            {% if member.projects %}
-            <li>
-                <em>Current Projects:</em> {{member.projects | markdownify}}
-            </li>
-            {% endif %}
-        </div> -->
     </div>
     {% endfor %}
 </div>

@@ -29,7 +29,7 @@ Through undergraduate research, you’ll: 1) learn about the latest questions cu
 The ATOMS Lab is focused on developing and using computational chemistry and artificial intelligence tools for solving engineering problems. Undergraduate researchers will generally work on one of two tracks: 1) simulating properties of molecules, or 2) building/using AI tools for discovering Chemical Engineering theories. These may involve activities such as running molecular simulations on a supercomputer or writing/running code for AI.
 
 **What are the hours for the position?** <br>
-Apart from attendance at weekly group meetings, students are free to work according to a flexible schedule. So far during COVID, all work has been remote, though we do have a lab office under construction for future use.
+Apart from attendance at weekly group meetings, students are free to work according to a flexible schedule. 
 
 **How do I apply?** <br>
 If you’re interested in applying for a lab position or for research credit, you must read <a target="_blank" href="/static/docs/ATOMS Lab_student_expectations.pdf">ATOMS Lab Undergraduate Research Agreement</a> carefully to make sure you understand what’s involved. Then include in a single email: (1) your resume (PDF), (2) unofficial copy of your transcript (PDF); freshman can send high school transcript (PDF), and (3) one page or less explaining why you’d like to work in our lab (PDF). <br>

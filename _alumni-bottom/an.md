@@ -1,7 +1,7 @@
 ---
 name: An Hong Dang
 pronouns: she/her/hers
-startdate: 2020-07-01
+startdate: 2021-07-01
 enddate: 2022-08-01
 image: /static/img/members/an.png
 subsequent: Junior, CBEE

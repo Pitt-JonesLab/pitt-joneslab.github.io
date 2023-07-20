@@ -1,5 +1,5 @@
 ---
-name: Ami Ashman
+name: Ami Ashman (he/him/his)
 pronouns: he/him/his
 startdate: 2023-03-01
 enddate: 2023-04-01

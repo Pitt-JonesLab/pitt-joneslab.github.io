@@ -13,12 +13,12 @@ group: members
     <h4>Principal Investigator</h4>
     {% for member in site.members %}
     <div id="{{member.name}}" class="row pb-5">
-        <div class="col-sm-9">
+        <div class="col-sm-7">
             <img class="img-fluid" src="{{member.image}}" alt="{{member.name}}" />
         </div>
     <!-- end of col-sm-12 -->
 
-        <div class="col-sm-3">
+        <div class="col-sm-5">
             <ul class="member-information">
                 <li>
                     <strong>
@@ -88,7 +88,7 @@ group: members
 
         </div>
 
-        <div class="col-sm-9" style="text-align: justify; margin-top: 20px;">
+        <div class="col-sm-12" style="text-align: justify; margin-top: 20px;">
             {{member.description | markdownify}}
         </div>
 

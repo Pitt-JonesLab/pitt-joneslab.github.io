@@ -422,19 +422,18 @@ group: members
     <h4>Alumni</h4>
     {% for member in site.alumni-bottom %}
     <div id="{{member.name}}" class="row pb-5">
-        <div class="col-sm-6">
+        <div class="col-sm-9">
             <ul class="member-information">
                 <li>
                     <strong>{{member.name}}</strong>
                 </li>
-                <li>
-                    {% if member.pronouns %}
-                    <em>{{member.pronouns}}</em>
-                    {% endif %}
-                </li>
+                
                 <li>
                     {{member.position}}
                 </li>
+
+                Subsequently: {{member.subsequent}} <br>
+                
                 <li>
                     <em>{{member.email}}</em>
                 </li>
@@ -445,13 +444,7 @@ group: members
                 </li>
                 {% endif %}
 
-                {% if member.orcid %}
-                <li>
-                    <a target="_blank" href="http://orcid.org"><img class="inline-block mem-icon" src="/static/img/orcidid_logo.svg"></a>
-                    <a target="_blank" href="http://orcid.org/{{member.orcid}}"> {{member.orcid}}</a>
-                </li>
-
-                {% endif %}
+                
 
                 {% if member.linkedin %}
                 <li>
@@ -467,27 +460,11 @@ group: members
                 </li>
                 {% endif %}
 
-                {% if member.twitter %}
-                <li>
-                    <a target="_blank" href="http://twitter.com"><img class="inline-block mem-icon" src="/static/img/twitter2_logo.svg"></a>
-                    <a target="_blank" href= "http://twitter.com/{{member.twitter}}"> @{{member.twitter}} </a>
-                </li>
-                {% endif %}
+                
 
-                {% if member.github %}
-                <li>
-                    <a target="_blank" href="http://github.com"><img class="inline-bloc mem-icon" src="/static/img/github_logo.svg"></a>
-                    <a target="_blank" href= "http://github.com/{{member.github}}"> {{member.github}} </a>
-                </li>
-                {% endif %}
+                
             </ul>
 
-        </div>
-        <div class="col-sm-6">
-            {{member.description | markdownify}}
-            {% if member.projects %}
-            <em>Current Projects:</em> {{member.projects | markdownify}}
-            {% endif %}
         </div>
     </div>
     {% endfor %}

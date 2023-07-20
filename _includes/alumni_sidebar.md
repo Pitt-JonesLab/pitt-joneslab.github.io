@@ -1,6 +1,6 @@
 #### ALUMNI
-{% assign sorted = (site.alumni | sort: "enddate") | reverse %}
-{% for member in sorted %}
+<!-- {% assign sorted = (site.alumni | sort: "enddate") | reverse %} -->
+{% for member in site.alumni %}
 <hr>
 
 <p><strong>{{member.name}}</strong> - <em>{{member.position}}</em><br>

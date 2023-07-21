@@ -424,7 +424,7 @@ group: members
     {% assign phds = site.alumni-bottom | where:"group", "phd" %}
     {% assign visiting_students = site.alumni-bottom | where:"group", "visiting_student" %}
 
-    <h5>Undergrads</h5>
+    <h5 class="category-heading">Undergrads</h5>
     {% for member in undergrads %}
         <div id="{{member.name}}" class="row member-row">
             <div class="col-sm-12">
@@ -461,7 +461,7 @@ group: members
         </div>
     {% endfor %}
 
-    <h5>Masters</h5>
+    <h5 class="category-heading">Masters</h5>
     {% for member in masters %}
     <div id="{{member.name}}" class="row member-row">
         <div class="col-sm-12">
@@ -498,7 +498,7 @@ group: members
     </div>
     {% endfor %}
 
-    <h5>Visiting Students</h5>
+    <h5 class="category-heading">Visiting Students</h5>
     {% for member in visiting_students %}
     <div id="{{member.name}}" class="row member-row">
         <div class="col-sm-12">

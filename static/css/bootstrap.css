@@ -630,6 +630,11 @@ pre code {
   padding-bottom: 1rem; 
     }
 
+.category-heading {
+      margin-top: 2rem; 
+      text-transform: uppercase;  
+}
+
 
 .col-auto {
   -ms-flex: 0 0 auto;

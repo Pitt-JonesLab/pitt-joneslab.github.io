@@ -1,6 +1,7 @@
 ---
 name: Jinyu Huang
 pronouns: he/him/his
+group: undergrad
 startdate: 2021-07-22
 enddate: 2022-08-01
 image: /static/img/members/jinyuhuang.png

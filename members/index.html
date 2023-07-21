@@ -419,56 +419,109 @@ group: members
 
 <div class="member-wrapper">
     <h4>Alumni</h4>
-    {% for member in site.alumni-bottom %}
+    {% assign undergrads = site.alumni-bottom | where:"group", "undergrad" %}
+    {% assign masters = site.alumni-bottom | where:"group", "masters" %}
+    {% assign phds = site.alumni-bottom | where:"group", "phd" %}
+    {% assign visiting_students = site.alumni-bottom | where:"group", "visiting_student" %}
+
+    <h5>Undergrads</h5>
+    {% for member in undergrads %}
+        <div id="{{member.name}}" class="row pb-5">
+            <div class="col-sm-12">
+                <ul class="member-information">
+                    <li>
+                        <strong>{{member.name}} </strong>
+                        {% if member.pronouns %}
+                            ({{member.pronouns}})
+                        {% endif %}
+                        - <em>{{member.position}}</em><br>
+                    </li>
+                    <li>
+                        {% assign start = member.startdate | date:"%Y" %}
+                        {% assign end = member.enddate | date:"%Y" %}
+
+                        {% if end == '' %}
+                            {{member.startdate | date:"%Y"}}
+                        {% else %}
+                            {{member.startdate | date:"%Y"}} - {{member.enddate | date:"%Y"}}<br>
+                        {% endif %}
+                        
+                        Subsequently: {{member.subsequent}} <br>
+                    </li>
+                    {% if member.linkedin %}
+                    <li>
+                        <a target="_blank"href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/lin_logo.svg"></a>
+                        <a target="_blank" href= "http://www.linkedin.com/in/{{member.linkedin}}"> LinkedIn </a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    {% endfor %}
+
+    <h5>Masters</h5>
+    {% for member in masters %}
     <div id="{{member.name}}" class="row pb-5">
         <div class="col-sm-12">
             <ul class="member-information">
                 <li>
-                    <strong>{{member.name}} </strong> - <em>{{member.position}}</em><br>
-                </li>
-                <li>
+                    <strong>{{member.name}} </strong>
                     {% if member.pronouns %}
-                    <em>{{member.pronouns}}</em>
+                        ({{member.pronouns}})
                     {% endif %}
+                    - <em>{{member.position}}</em><br>
                 </li>
                 <li>
                     {% assign start = member.startdate | date:"%Y" %}
                     {% assign end = member.enddate | date:"%Y" %}
 
                     {% if end == '' %}
-                    {{member.startdate | date:"%Y"}}
-                    {% endif %}
-
-                    {% if start == end %}
-                    {{member.startdate | date:"%Y"}}<br>
+                        {{member.startdate | date:"%Y"}}
                     {% else %}
-                    {{member.startdate | date:"%Y"}} - {{member.enddate | date:"%Y"}}<br>
+                        {{member.startdate | date:"%Y"}} - {{member.enddate | date:"%Y"}}<br>
                     {% endif %}
-                
+                    
                     Subsequently: {{member.subsequent}} <br>
                 </li>
-                
-                <li>
-                    <em>{{member.email}}</em>
-                </li>
-
-                {% if member.website %}
-                <li>
-                    <a style="overflow-wrap: break-word;" target="_blank" href= "{{member.website}}">{{member.website}}</a>
-                </li>
-                {% endif %}
-
                 {% if member.linkedin %}
                 <li>
                     <a target="_blank"href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/lin_logo.svg"></a>
-                    <a target="_blank" href= "http://www.linkedin.com/in/{{member.linkedin}}"> {{member.linkedin}} </a>
+                    <a target="_blank" href= "http://www.linkedin.com/in/{{member.linkedin}}"> LinkedIn </a>
                 </li>
                 {% endif %}
+            </ul>
+        </div>
+    </div>
+    {% endfor %}
 
-                {% if member.scholar %}
+    <h5>Visiting Students</h5>
+    {% for member in visiting_students %}
+    <div id="{{member.name}}" class="row pb-5">
+        <div class="col-sm-12">
+            <ul class="member-information">
                 <li>
-                    <a target="_blank" href="http://scholar.google.com"><img class="inline-block mem-icon" src="/static/img/gscholar_logo.svg"></a>
-                    <a target="_blank" href= "http://scholar.google.com/citations?user={{member.scholar}}"> Scholar Citations </a>
+                    <strong>{{member.name}} </strong>
+                    {% if member.pronouns %}
+                        ({{member.pronouns}})
+                    {% endif %}
+                    - <em>{{member.position}}</em><br>
+                </li>
+                <li>
+                    {% assign start = member.startdate | date:"%Y" %}
+                    {% assign end = member.enddate | date:"%Y" %}
+
+                    {% if end == '' %}
+                        {{member.startdate | date:"%Y"}}
+                    {% else %}
+                        {{member.startdate | date:"%Y"}} - {{member.enddate | date:"%Y"}}<br>
+                    {% endif %}
+                    
+                    Subsequently: {{member.subsequent}} <br>
+                </li>
+                {% if member.linkedin %}
+                <li>
+                    <a target="_blank"href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/lin_logo.svg"></a>
+                    <a target="_blank" href= "http://www.linkedin.com/in/{{member.linkedin}}"> LinkedIn </a>
                 </li>
                 {% endif %}
             </ul>
@@ -476,6 +529,7 @@ group: members
     </div>
     {% endfor %}
 </div>
+
 
 <!-- <div class="member-wrapper">
     <h4>High School Students</h4>

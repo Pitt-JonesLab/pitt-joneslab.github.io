@@ -1,6 +1,7 @@
 ---
 name: Catherine Wraback
 pronouns: she/her/hers
+group: undergrad
 startdate: 2020-12-20
 enddate: 2023-07-01
 image: /static/img/members/cwraback.png

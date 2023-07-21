@@ -1,6 +1,7 @@
 ---
 name: Francesca (Nikki) Nacion
 pronouns: she/her/hers
+group: undergrad
 startdate: 2020-12-20
 enddate: 2022-05-01
 image: /static/img/members/nikkinacion.png

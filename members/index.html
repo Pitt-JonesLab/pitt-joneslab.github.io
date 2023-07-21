@@ -30,8 +30,8 @@ group: members
                 </li>
                 <li>
                     {% if member.pronouns %}
-                    <em>{{member.pronouns}}</em>
-                    {% endif %}
+                    ({{member.pronouns}})
+                    {% endif %} 
                 </li>
                 <li>
                     {{member.position1}}
@@ -112,8 +112,8 @@ group: members
                 </li>
                 <li>
                     {% if member.pronouns %}
-                    <em>{{member.pronouns}}</em>
-                    {% endif %}
+                    ({{member.pronouns}})
+                    {% endif %} 
                 </li>
                 <li>
                     {{member.position}}
@@ -190,8 +190,8 @@ group: members
                 </li>
                 <li>
                     {% if member.pronouns %}
-                    <em>{{member.pronouns}}</em>
-                    {% endif %}
+                    ({{member.pronouns}})
+                    {% endif %} 
                 </li>
                 <li>
                     {{member.position}}
@@ -267,12 +267,9 @@ group: members
                 <li>
                     <strong>{{member.name}}</strong>
                     {% if member.pronouns %}
+                    ({{member.pronouns}})
+                    {% endif %} 
                 </li>
-                <li>
-                    <em>{{member.pronouns}}</em>
-                </li>
-                    {% endif %}
-
                 <li>
                     {{member.position}}
                 </li>

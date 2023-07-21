@@ -2,7 +2,7 @@
 name: Tyler R. Josephson, Ph.D.
 pronunciation_link: https://www.name-coach.com/tyler-josephson
 sound_image: /static/img/sound-icon.png
-pronouns: he/him/his
+pronouns: he/him
 position1: Assistant Professor @ <a target="_blank" href="https://cbee.umbc.edu/">CBEE </a>
 position2: Affiliate Faculty Member @ <a target="_blank" href="https://csee.umbc.edu/"> CSEE</a>
 startdate: 2019-08-01

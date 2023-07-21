@@ -2,10 +2,10 @@
 name: An Hong Dang
 pronouns: she/her/hers
 group: undergrad
-startdate: 2021-07-01
-enddate: 2022-08-01
+startdate: 2021-09-09
+enddate: 2023-03-01
 image: /static/img/members/an.png
-subsequent: Junior, CBEE
+subsequent: Senior, CBEE
 email:  adang2 [at]  umbc.edu
 twitter: anhongdang
 linkedin: an-dang-420543199

@@ -625,6 +625,12 @@ pre code {
   max-width: 100%;
 }
 
+
+.member-row {
+  padding-bottom: 1rem; 
+    }
+
+
 .col-auto {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;

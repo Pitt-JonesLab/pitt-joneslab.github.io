@@ -3,7 +3,7 @@ name: Max Bobbin
 pronouns: he/him/his
 group: undergrad
 startdate: 2022-01-17
-enddate: 2023-07-01
+enddate: 2023-06-01
 image: /static/img/members/max.png
 position: BS CSEE, Fall 2023
 subsequent: PhD Student @ <a target="_blank" href= "https://www.udel.edu/">UD </a>

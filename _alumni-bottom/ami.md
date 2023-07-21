@@ -5,7 +5,7 @@ group: visiting_student
 startdate: 2023-03-01
 enddate: 2023-04-01
 image: /static/img/members/ami.png
-subsequent: High School Senior
+subsequent: BS in CSE @Northeastern University
 email: amiashman8  [at]  gmail.com
 website: www.amiashman.dev
 linkedin: ami-ashman-2642ab267

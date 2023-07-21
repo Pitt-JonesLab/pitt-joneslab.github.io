@@ -1,6 +1,6 @@
 ---
 name: Charlie Fox
-pronouns: he/him/his
+pronouns: he/him
 group: masters
 startdate: 2021-04-02
 enddate: 2022-12-24

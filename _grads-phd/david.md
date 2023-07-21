@@ -1,6 +1,6 @@
 ---
 name: Ejike David Ugwuanyi
-pronouns: he/him/his
+pronouns: he/him
 startdate: 2023-05-01
 enddate: YYYY-MM-DD
 image: /static/img/members/david.png

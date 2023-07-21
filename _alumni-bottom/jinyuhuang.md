@@ -1,6 +1,6 @@
 ---
 name: Jinyu Huang
-pronouns: he/him/his
+pronouns: he/him
 group: undergrad
 startdate: 2021-07-22
 enddate: 2022-08-01

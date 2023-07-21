@@ -1,6 +1,6 @@
 ---
 name: Max Bobbin
-pronouns: he/him/his
+pronouns: he/him
 group: undergrad
 startdate: 2022-01-17
 enddate: 2023-06-01

@@ -1,6 +1,6 @@
 ---
 name: Colin Jones
-pronouns: he/him/his
+pronouns: he/him
 startdate: 2023-07-01
 enddate: YYYY-MM-DD
 image: /static/img/members/colin.png

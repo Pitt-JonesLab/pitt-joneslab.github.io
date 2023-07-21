@@ -1,6 +1,6 @@
 ---
 name: Samiha Sharlin
-pronouns: she/her/hers
+pronouns: she/her
 startdate: 2019-08-01
 enddate: YYYY-MM-DD
 image: /static/img/members/ssharlin_.png

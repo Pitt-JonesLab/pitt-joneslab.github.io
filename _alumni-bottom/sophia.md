@@ -1,6 +1,6 @@
 ---
 name: Sophia Hamer
-pronouns: she/her/hers
+pronouns: she/her
 group: undergrad
 startdate: 2021-05-28
 enddate: 2022-12-01

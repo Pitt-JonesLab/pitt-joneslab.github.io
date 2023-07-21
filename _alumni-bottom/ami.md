@@ -1,6 +1,6 @@
 ---
 name: Ami Ashman
-pronouns: he/him/his
+pronouns: he/him
 group: visiting_student
 startdate: 2023-03-01
 enddate: 2023-04-01

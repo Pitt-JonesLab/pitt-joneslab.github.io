@@ -1,6 +1,6 @@
 ---
 name: An Hong Dang
-pronouns: she/her/hers
+pronouns: she/her
 group: undergrad
 startdate: 2021-09-09
 enddate: 2023-03-01

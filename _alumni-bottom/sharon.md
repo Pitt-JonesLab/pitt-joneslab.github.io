@@ -1,6 +1,6 @@
 ---
 name: Sharon Liu
-pronouns: she/her/hers
+pronouns: she/her
 group: undergrad
 startdate: 2020-12-20
 enddate: 2022-05-01

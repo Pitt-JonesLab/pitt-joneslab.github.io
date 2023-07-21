@@ -1,6 +1,6 @@
 ---
 name: Rodrigo Andre Lozano
-pronouns: he/him/his
+pronouns: he/him
 group: visiting_student
 startdate: 2022-05-01
 enddate: 2022-08-01

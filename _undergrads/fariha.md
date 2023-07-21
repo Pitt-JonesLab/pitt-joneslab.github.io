@@ -1,6 +1,6 @@
 ---
 name: Fariha Agbere
-pronouns: she/her/hers
+pronouns: she/her
 startdate: 2022-12-22
 enddate: YYYY-MM-DD
 image: /static/img/members/fariha.png

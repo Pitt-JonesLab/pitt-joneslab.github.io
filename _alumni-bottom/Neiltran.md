@@ -1,6 +1,6 @@
 ---
 name: Neil Tran
-pronouns: he/him/his
+pronouns: he/him
 group: undergrad
 startdate: 2020-12-20
 enddate: 2021-07-28

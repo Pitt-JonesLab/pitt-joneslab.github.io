@@ -411,42 +411,42 @@ group: members
     {% assign masters = site.alumni-bottom | where:"group", "masters" %}
     {% assign phds = site.alumni-bottom | where:"group", "phd" %}
     {% assign visiting_students = site.alumni-bottom | where:"group", "visiting_student" %}
+   
+    <h5 class="category-heading">PhDs</h5>
+    {% for member in phds %}
+    <div id="{{member.name}}" class="row member-row">
+        <div class="col-sm-12">
+            <ul class="member-information">
+                <li>
+                    <strong>{{member.name}} </strong>
+                    {% if member.pronouns %}
+                        ({{member.pronouns}})
+                    {% endif %}
+                    {% if member.position %}
+                        - <em>{{member.position}}</em>
+                    {% endif %}
+                </li>
+                <li>
+                    {% assign start = member.startdate | date:"%Y" %}
+                    {% assign end = member.enddate | date:"%Y" %}
 
-    <h5 class="category-heading">Undergrads</h5>
-    {% for member in undergrads %}
-        <div id="{{member.name}}" class="row member-row">
-            <div class="col-sm-12">
-                <ul class="member-information">
-                    <li>
-                        <strong>{{member.name}} </strong>
-                        {% if member.pronouns %}
-                            ({{member.pronouns}})
-                        {% endif %}
-                        {% if member.position %}
-                            - <em>{{member.position}}</em>
-                        {% endif %}
-                    </li>
-                    <li>
-                        {% assign start = member.startdate | date:"%Y" %}
-                        {% assign end = member.enddate | date:"%Y" %}
-
-                        {% if end == '' %}
-                            {{member.startdate | date:"%Y"}}
-                        {% else %}
-                            {{member.startdate | date:"%Y"}} - {{member.enddate | date:"%Y"}}<br>
-                        {% endif %}
-                        
-                        Subsequently: {{member.subsequent}} <br>
-                    </li>
-                    {% if member.linkedin %}
+                    {% if end == '' %}
+                        {{member.startdate | date:"%Y"}}
+                    {% else %}
+                        {{member.startdate | date:"%Y"}} - {{member.enddate | date:"%Y"}}<br>
+                    {% endif %}
+                    
+                    Subsequently: {{member.subsequent}} <br>
+                </li>
+                {% if member.linkedin %}
                     <li>
                         <a target="_blank"href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/logos/lin_logo.svg"></a>
                         <a target="_blank" href= "http://www.linkedin.com/in/{{member.linkedin}}"> {{member.linkedin}} </a>
                     </li>
-                    {% endif %}
-                </ul>
-            </div>
+                {% endif %}
+            </ul>
         </div>
+    </div>
     {% endfor %}
 
     <h5 class="category-heading">Masters</h5>
@@ -486,40 +486,41 @@ group: members
     </div>
     {% endfor %}
 
-    <h5 class="category-heading">Visiting Students</h5>
-    {% for member in visiting_students %}
-    <div id="{{member.name}}" class="row member-row">
-        <div class="col-sm-12">
-            <ul class="member-information">
-                <li>
-                    <strong>{{member.name}} </strong>
-                    {% if member.pronouns %}
-                        ({{member.pronouns}})
-                    {% endif %}
-                    {% if member.position %}
-                        - <em>{{member.position}}</em>
-                    {% endif %}
-                </li>
-                <li>
-                    {% assign start = member.startdate | date:"%Y" %}
-                    {% assign end = member.enddate | date:"%Y" %}
+    <h5 class="category-heading">Undergrads</h5>
+    {% for member in undergrads %}
+        <div id="{{member.name}}" class="row member-row">
+            <div class="col-sm-12">
+                <ul class="member-information">
+                    <li>
+                        <strong>{{member.name}} </strong>
+                        {% if member.pronouns %}
+                            ({{member.pronouns}})
+                        {% endif %}
+                        {% if member.position %}
+                            - <em>{{member.position}}</em>
+                        {% endif %}
+                    </li>
+                    <li>
+                        {% assign start = member.startdate | date:"%Y" %}
+                        {% assign end = member.enddate | date:"%Y" %}
 
-                    {% if end == '' %}
-                        {{member.startdate | date:"%Y"}}
-                    {% else %}
-                        {{member.startdate | date:"%Y"}} - {{member.enddate | date:"%Y"}}<br>
-                    {% endif %}
-                    
-                    Subsequently: {{member.subsequent}} <br>
-                </li>
-                {% if member.linkedin %}
+                        {% if end == '' %}
+                            {{member.startdate | date:"%Y"}}
+                        {% else %}
+                            {{member.startdate | date:"%Y"}} - {{member.enddate | date:"%Y"}}<br>
+                        {% endif %}
+                        
+                        Subsequently: {{member.subsequent}} <br>
+                    </li>
+                    {% if member.linkedin %}
                     <li>
                         <a target="_blank"href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/logos/lin_logo.svg"></a>
                         <a target="_blank" href= "http://www.linkedin.com/in/{{member.linkedin}}"> {{member.linkedin}} </a>
                     </li>
-                {% endif %}
-            </ul>
+                    {% endif %}
+                </ul>
+            </div>
         </div>
-    </div>
     {% endfor %}
+
 </div>

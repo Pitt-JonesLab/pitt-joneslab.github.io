@@ -3,8 +3,8 @@
 name: Preston Brazzle
 startdate: [2022-05-15] #Enter your start date
 enddate: #[YYYY-MM-DD] Leave this blank until you leave the lab
-image: /static/img/members/LastName.jpg #365 x 365 pixels, 72 dpi
-altimage: /static/img/members/LastName_pb.jpg #365 x 365 pixels, 72 dpi
+image: /static/img/members/brazzle.jpg #365 x 365 pixels, 72 dpi
+altimage: #/static/img/members/LastName_pb.jpg #365 x 365 pixels, 72 dpi
 position: Graduate Student Researcher
 subsequent: #Leave this blank until you leave the lab
 email: prb50@pitt.edu

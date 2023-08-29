@@ -1,7 +1,7 @@
-name: "ATOMS Lab"
-description: "This is the official web page for the ATOMS Lab at UMBC."
+name: "Jones Lab"
+description: "This is the official web page for Jones Lab at Pitt."
 
-url: "http://atomslab.github.io"
+url: "https://pitt-joneslab.github.io/"
 
 paginate: 5
 plugins: [jekyll-paginate]

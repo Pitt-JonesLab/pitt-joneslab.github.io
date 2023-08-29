@@ -295,7 +295,7 @@ ML estimate of  -log of scale factor:
  this is used to calculate the overall B-factor ("Wilson B-factor") for the
  data shown above.  The expected plot is calculated based on analysis of
  macromolecule structures in the PDB, and the distinctive appearance is due to
- the non-random arrangement of atoms in the crystal.  Some variation is
+ the non-random arrangement of Jones in the crystal.  Some variation is
  natural, but major deviations from the expected plot may indicate pathological
  data (including ice rings, detector problems, or processing errors).
 

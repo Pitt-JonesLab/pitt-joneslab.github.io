@@ -1,5 +1,5 @@
 ---
-title: ATOMS Lab Publications
+title: Jones Lab Publications
 layout: default
 group: publications
 ---
@@ -7,7 +7,7 @@ group: publications
 <div class="container hyperlink-wrapper" xmlns="http://www.w3.org/1999/html">
 
 	<h4> <strong>Selected Publications</strong></h4>
-		View <a target="_blank" href="https://scholar.google.com/citations?hl=en&user=vh4T9PAAAAAJ"> Google Scholar</a> or <a target="_blank" href="https://orcid.org/0000-0002-0100-0227"> ORCID</a> for a complete listing of citations and work.
+		View <a target="_blank" href="https://scholar.google.com/citations?user=zTEvgkoAAAAJ"> Google Scholar</a> or <a target="_blank" href="https://dblp.org/pid/j/AKJones.html"> DBLP</a> for a complete listing of citations and work.
 
 	<div class="container-fluid">
 
@@ -33,18 +33,6 @@ group: publications
 		<ul class="col-sm-6" style="list-style-type:none;">
 			<br>
 			<h6> <strong>Access the paper</strong></h6>
-			<!--PMID-->
-			{% if publication.pmid %}
-			<li>
-				PMID: 
-					<a target="_blank"
-						href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" 
-						alt="pubmed link: {{publication.pmid}}">
-						{{publication.pmid}}
-					</a>
-			</li>
-			{% endif %}
-
 
 			<!--DOI-->
 			{% if publication.doi %}
@@ -71,33 +59,11 @@ group: publications
 			<li><img class="inline-bloc mem-icon" src="/static/img/logos/arxiv_logo.jpg" alt="arXiv"> <a target= "_blank" href="https://arxiv.org/abs/{{publication.arxiv}}" alt = "arxiv preprint link: {{publication.arxiv}}"> {{publication.arxiv}}</a></li>
 			{% endif %}
 
-			<!--Chemrxiv - optional -->
-			{% if publication.chemrxiv %}
-			<li>ChemRxiv Preprint: <a target= "_blank" href=" https://doi.org/10.26434/chemrxiv.{{publication.chemrxiv}}" alt = "chemrxiv preprint link: {{publication.chemrxiv}}"> {{publication.chemrxiv}}</a></li>
-			{% endif %}
-
 			<!-- PDF -->
 			{% if publication.journal %}
 			<li><img class="inline-bloc mem-icon" src="/static/img/logos/PDF.svg" alt="PDF"> <a target= "_blank" href="{{publication.pdf}}" alt = "PDF"> Full Text</a></li>
 			{% endif %}
 
-
-			<!-- SBGrid Datasets - optional -->
-			{% if publication.data %}
-			<li>Online Dataset{% if publication.data.size > 1 %}s{% endif %}:
-					{% if publication.data.size > 1 %}
-					<ul>
-							{% for dataset in publication.data %}
-						<li>
-							<a target= "_blank" href="http://dx.doi.org/{{dataset}}" alt = "sbgrid data repository">doi:{{dataset}}</a>
-						</li>
-						{% endfor %}
-					</ul>
-					{% else %}
-						<a target= "_blank" href="http://dx.doi.org/{{publication.data}}" alt = "sbgrid data repository">doi:{{publication.data}}</a>
-					{% endif %}
-			</li>
-			{% endif %}
 
 		<!--PDBs - optional-->
 		{% if publication.pdbs %}

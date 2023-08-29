@@ -14,10 +14,6 @@
   link: "/members"
   group: member
 
-- name: JOIN
-  link: "/join"
-  group: join
-
-# - name: CONTACT
-#   link: "/contact"
-#   group: contact
+- name: CONTACT
+  link: "/contact"
+  group: contact

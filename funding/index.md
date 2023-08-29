@@ -1,5 +1,5 @@
 ---
-title: Funding @ ATOMS Lab
+title: Funding @ Jones Lab
 layout: default
 group: funding
 ---
@@ -8,6 +8,8 @@ group: funding
 <div class="row">
 <div class="col">
 
-All students are currently supported through <a href="https://cbee.umbc.edu/"> UMBC CBEE startup funds </a>.
+TODO
 
-<a href="mailto:tjo@umbc.edu">Reach out </a> to us if you’re interested in supporting our research through collaboration or funds!
+- Kauffman
+- ARO
+- others.

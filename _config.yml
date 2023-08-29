@@ -1,7 +1,7 @@
 name: "Jones Lab"
 description: "This is the official web page for Jones Lab at Pitt."
 
-url: "https://pitt-joneslab.github.io/"
+url: "https://pitt-joneslab.github.io"
 
 paginate: 5
 plugins: [jekyll-paginate]

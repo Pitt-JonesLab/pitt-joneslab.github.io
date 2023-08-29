@@ -20,5 +20,5 @@ Topics:
 - Sustainable Computing
 
 **Interested in joining the Jones Lab?**
-Open positions are listed on our <a target="_blank" href="{{ site.url }}/join"> join</a> page. <br>
+Open positions are listed on our <a target="_blank" href="{{ site.url }}/contact"> join</a> page. <br>
 Reach out to current group <a target="_blank" href="{{ site.url }}/members"> members</a> to learn more about what it’s like to work with us.

@@ -30,26 +30,37 @@
 
   <body>
 
-    <!-- Static navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark"  style="background-color: #003594">
-        <a class="navbar-brand" href="/">{{site.name}}</a>
-        <a href="https://www.engineering.pitt.edu/departments/electrical-computer/"><img class="inline-block navb-icon" src="static/img/logos/ece-new-svg2lg.svg" alt="logo"></a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse" id="navbarContent">
-          <ul class="navbar-nav ml-auto">
-            {% for link in site.data.navlinks %}
+<!-- Static navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #003594">
+  <!-- Replacing site.name with an image -->
+  <a class="navbar-brand" href="/">
+      <img src="/static/img/jones_logo.png" alt="Jones Lab" height="50">
+  </a>
+  <a href="https://www.engineering.pitt.edu/departments/electrical-computer/">
+    <img class="inline-block navb-icon" src="/static/img/logos/ece-new-svg2lg.svg" alt="logo" style="height: 50px;">
+  </a>
+  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="navbar-collapse collapse" id="navbarContent">
+      <ul class="navbar-nav ml-auto">
+          {% for link in site.data.navlinks %}
               {% if page.group == link.group %}
-                <li class = "nav-item active"><a class="nav-link" href="{{link.link}}" alt="{{link.name}}"> {{link.name}}<span class="sr-only">(current)</span></a></li>
+                  <li class="nav-item active">
+                      <a class="nav-link" href="{{link.link}}" alt="{{link.name}}">
+                          {{link.name}}<span class="sr-only">(current)</span>
+                      </a>
+                  </li>
               {% else %}
-                <li class="nav-item"><a class="nav-link" href="{{link.link}}" alt="{{link.name}}"> {{link.name}}</a></li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="{{link.link}}" alt="{{link.name}}">{{link.name}}</a>
+                  </li>
               {% endif %}
-            {% endfor %}
-            <!-- <li><a href="https://sites.google.com/a/fraserlab.com/ucsf-private/" alt="Lab Private Area">private</a></li> -->
-          </ul>
-        </div><!--/.nav-collapse -->
-      </nav>
+          {% endfor %}
+          <!-- <li><a href="https://sites.google.com/a/fraserlab.com/ucsf-private/" alt="Lab Private Area">private</a></li> -->
+      </ul>
+  </div><!--/.nav-collapse -->
+</nav>
 
     <!-- <div class="container"> -->
 

@@ -1,7 +1,7 @@
 ---
 title: Research @ Jones Lab
 layout: research
-group: research
+permalink: /research
 ---
 
 <br>

@@ -1,0 +1,103 @@
+# - title: "Quantum Computing in the 21st Century"                 # Required
+#   authors: "Smith, J., Doe, J., Jones, A.K."                     # Required
+#   date: "2022-05-15"                                             # Required, in YYYY-MM-DD format
+#   doi: "10.1038/nphys0000"                                       # Required
+#   pdf: "/assets/pdf/quantum_computing.pdf"                       # Required
+#   image: "/assets/img/research/quantum_computing.png"                     # Required
+#   journal: "Nature Physics"                                      # Optional, takes precedence over arXiv if both are present
+#   github: "JonesLab/quantum_computing"                           # Optional
+#   arxiv: "2105.00000"                                            # Optional, only displayed if 'journal' is not present
+#   tags: ["Quantum Computing", "Processing-in-Memory", "Sustainable Computing"]
+
+- title: "Co-Designed Architectures for Modular Superconducting Quantum Computers"
+  authors: "McKinney, E., Xia, M., Zhou, C., Lu, P., Hatridge, M., Jones, A.K"
+  journal: "2023 IEEE International Symposium on High-Performance Computer Architecture (HPCA)"
+  date: "2023-02-25"
+  doi: "10.1109/HPCA56546.2023.10071036"
+  image: "/assets/img/research/clonk.png"
+  pdf: "/assets/pdf/mckinney_hpca_2023.pdf"
+  github: "Pitt-JonesLab/clonk_transpilation"
+  arxiv: "2205.04387"
+  tags: ["Quantum Computing"]
+
+- title: "Parallel Driving for Fast Quantum Computing Under Speed Limits"
+  authors: "McKinney, E., Zhou, C., Xia, M., Hatridge, M., Jones, A.K"
+  journal: "Proceedings of the 50th Annual International Symposium on Computer Architecture (ISCA)"
+  date: "2023-06-17"
+  doi: "10.1145/3579371.3589075"
+  image: "/assets/img/research/slam.png"
+  pdf: "/assets/pdf/mckinney_isca_2023.pdf"
+  github: "Pitt-JonesLab/slam_decomposition"
+  arxiv: "2302.01252"
+  tags: ["Quantum Computing"]
+  
+
+- title: "MIRAGE: Quantum Circuit Decomposition and Routing Collaborative Design using Mirror Gates"
+  authors: "McKinney, E., Hatridge, M., Jones, A.K"
+  date: "2023-08-07"
+  doi: "10.48550/arXiv.2308.03874"
+  image: "/assets/img/research/mirage.png"
+  pdf: "/assets/pdf/mckinney_mirage_arxiv.pdf"
+  github: "Pitt-JonesLab/mirror-gates"
+  arxiv: "2308.03874"
+  tags: ["Quantum Computing"]
+
+- title: "CORUSCANT: Fast efficient processing-in-racetrack memories"
+  authors: "Ollivier, S., Longofono, S., Dutta, P., Hu, J., Bhanja, S., Jones, A.K"
+  journal: "2022 55th IEEE/ACM International Symposium on Microarchitecture (MICRO)"
+  date: "2022-10-26"
+  doi: "10.1109/MICRO56248.2022.00060"
+  image: "/assets/img/research/coruscant.png"
+  arxiv: "2108.01202"
+  tags: ["Processing-in-Memory"]
+    
+- title: "Pod-racing: bulk-bitwise to floating-point compute in racetrack memory for machine learning at the edge"
+  authors: "Ollivier, S., Zhang, X., Tang, Y., Choudhuri, C., Hu, J., Jones, A.K"
+  journal: "IEEE Micro"
+  date: "2022-11-01"
+  doi: "10.1109/MM.2022.3195761"
+  image: "/assets/img/research/podracing.png"
+  arxiv: "2204.13788"
+  tags: ["Processing-in-Memory"]
+
+- title: "FusedCache: A Naturally Inclusive, Racetrack Memory, Dual-Level Private Cache"
+  authors: "Xu, H., Alkabani, Y., Melhem, R., Jones, A.K"
+  journal: "IEEE Transactions on Multi-Scale Computing Systems"
+  date: "2016-03-24"
+  doi: "10.1109/TMSCS.2016.2536020"
+  image: "/assets/img/research/fusedcache.png"
+  tags: ["Processing-in-Memory"]
+
+- title: "Leveraging Transverse Reads to Correct Alignment Faults in Domain Wall memories"
+  authors: "Ollivier, S., Kline, D., Kawsher, R., Melhem, R., Bhanja, S., Jones, A.K"
+  journal: "2019 49th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)"
+  date: "2019-08-22"
+  doi: "10.1109/DSN.2019.00047"
+  image: "/assets/img/research/ollivier_dsn_2019.JPG"
+  tags: ["Processing-in-Memory"]
+
+- title: "Sustainable AI Processing at the edge"
+  authors: "Ollivier, S., Li, S., Tang, Y., Cahoon, S., Caginalp, R., Chaudhuri, C., Zhou, P., Tang, X., Hu, J., Jones, A.K"
+  journal: "IEEE Micro"
+  date: "2022-11-08"
+  doi: "10.1109/MM.2022.3220399"
+  image: "/assets/img/research/ollivier_edge_ai.png"
+  arxiv: "2207.01209"
+  tags: ["Sustainable Computing"]
+
+- title: "Dark silicon considered harmful: A case for truly green computing"
+  authors: "Brunvand, E., Kline, D., Jones, A.K"
+  journal: "2018 Ninth International Green and Sustainable Computing Conference (IGSC)"
+  date: "2018-10-22"
+  doi: "10.1109/IGCC.2018.8752110"
+  image: "/assets/img/research/brunvand_igsc_2018.png"
+  tags: ["Sustainable Computing"]
+
+- title: "GreenChip: A tool for evaluating holistic sustainability of modern computing Systems"
+  authors: "Kline Jr, D., Parshook, N., Ge, X., Brunvand, E., Melhem, R., Chrysanthis, P.K., Jones, A.K"
+  journal: "Sustainable Computing: Informatics and Systems"
+  date: "2019-06-01"
+  doi: "10.1016/j.suscom.2017.10.001"
+  image: "/assets/img/research/kline_suscom_2019.png"
+  github: "Pitt-JonesLab/Greenchip"
+  tags: ["Sustainable Computing"]

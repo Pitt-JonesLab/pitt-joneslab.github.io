@@ -1,0 +1,31 @@
+<div id="{{member.name}}" class="row member-row">
+    <div class="col-sm-12">
+        <ul class="member-information">
+            <li>
+                <strong>{{member.name}} </strong>
+                {% if member.pronouns %}
+                ({{member.pronouns}})
+                {% endif %}
+                {% if member.position %}
+                - <em>{{member.position}}</em>
+                {% endif %}
+            </li>
+            <li>
+                {% if member.enddate != blank %}
+                {{member.startdate | date:"%Y"}} - {{member.enddate | date:"%Y"}}<br>
+                {% else %}
+                {{member.startdate | date:"%Y"}}
+                {% endif %}
+
+                Subsequently: {{member.subsequent}} <br>
+            </li>
+            {% if member.linkedin %}
+            <li>
+                <a target="_blank" href="http://www.linkedin.com"><img class="inline-block mem-icon"
+                        src="/assets/img/logos/lin_logo.svg"></a>
+                <a target="_blank" href="http://www.linkedin.com/in/{{member.linkedin}}"> {{member.linkedin}} </a>
+            </li>
+            {% endif %}
+        </ul>
+    </div>
+</div>

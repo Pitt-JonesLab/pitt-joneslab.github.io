@@ -1,7 +1,6 @@
 ---
 title: Jones Lab @ Pitt
 layout: home
-group: home
 ---
 
 <br>

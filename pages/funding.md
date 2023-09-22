@@ -1,7 +1,6 @@
 ---
 title: Funding @ Jones Lab
 layout: default
-group: funding
 ---
 
 <div class="container px-2">

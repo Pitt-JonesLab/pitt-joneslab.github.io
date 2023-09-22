@@ -1,0 +1,97 @@
+# - name: John Doe                        # Required
+#   role: "Graduate Student"              # Required, valid options: "Principal Investigator", "PhD", "Masters", "Undergrads", "Alumni", etc.
+#   image: "/assets/img/members/john.jpg" # Required
+#   position: "PhD Student, ECE"          # Required
+#   email: "john.doe [at] pitt.edu"       # Required
+#   startdate: "2023-08-01"               # Required
+#   enddate: "YYYY-MM-DD"                 # only include if Alumni
+#   pronouns: "he/him"                    # Optional
+#   website: "https://johndoe.dev"        # Optional
+#   orcid: "0000-0002-1234-5678"          # Optional
+#   scholar: "ABCDEFGHIJ"                 # Optional
+#   linkedin: "john.doe"                  # Optional
+#   github: "johndoe123"                  # Optional
+#   description: "John Doe is a ..."      # Optional
+
+- name: Alex K. Jones, Ph.D.
+  role: Principal Investigator
+  position1: Professor, Department of Electrical and Computer Engineering
+  position2: Associate Director, NSF SHREC Center
+  startdate: 2009-08-01
+  enddate: 
+  image: /assets/img/members/jones.png
+  email: akjones [at] pitt.edu
+  website: https://www.alex-k-jones.org/
+  scholar: zTEvgkoAAAAJ
+  linkedin: alex-k-jones
+  github: akj850
+  orcid: 0000-0001-7498-0206
+  description: |
+    Alex K. Jones received the BS degree in 1998 in physics from the College of William and Mary in Williamsburg, VA, USA, and the MS and PhD degrees in 2000 and 2002, respectively, in ECE from Northwestern University, Evanston, IL, USA. He is a Professor of ECE and CS at the University of Pittsburgh, Pittsburgh, PA, USA. He is currently serving as a Program Director at the US NSF in the CNS Division of the CISE Directorate.  Dr. Jones' research interests include compilation for configurable systems and architectures, scaled and emerging memory, reliability, fault tolerance, quantum computing, and sustainable computing. He is the author of more than 200 publications in these areas. His research is funded by the NSF, DARPA, NSA, and industry. He is an active member of program committees in the computer architecture, design automation, and sustainable computing areas.  He is the steering committee chair for the IEEE International Green and Sustainable Computing Conference, an associate editor for the IEEE Transactions on Computers, and Sustainable Computing: Informatics and Systems Journal. He is a senior member of the IEEE and the ACM.
+
+    Dr. Jones' research interests are broadly in the area of computer architecture.  He is currently investigating quantum system codesign including design of basis gates, topologies, and transpilation from resonator devices to systems.  He is also actively developing nanoscale magnetic memory systems including spin-transfer-torque and Racetrack memories with an emphasis on processing in memory.  His other interests include reliability and fault-tolerance, computing and memories in harsh environments such as space, compilation techniques for configurable systems and architectures, and sustainable computing, among others.  He has more than 200 publications in these areas.  His research is funded by NSF, DARPA, NSA, and industry.
+
+
+- name: Evan McKinney
+  role: PhD
+  pronouns: he/him
+  startdate: 2023-08-01
+  enddate: 
+  image: /assets/img/members/evan.jpg
+  position: PhD Student, ECE
+  subsequent: 
+  email: evm33 [at] pitt.edu
+  website: https://evm9.dev
+  orcid: 0000-0002-4865-5458
+  scholar: Qx3TAbkAAAAJ
+  linkedin: evm9
+  github: evmckinney9
+  description: Evan McKinney is a third-year graduate student, co-advised by Dr. Michael Hatridge from Department of Physics. He graduated from Iowa State University studying computer engineering and physics. In the lab, he studies the co-design of quantum computing architecture and optimizations for near-term QC applications.
+
+- name: Preston Brazzle
+  role: Graduate Student
+  pronouns: he/him
+  startdate: 2022-05-15
+  enddate: 
+  image: /assets/img/members/brazzle.jpg
+  position: Graduate Student Researcher
+  subsequent: 
+  email: prb50@pitt.edu
+  orcid: 0009-0004-8662-8217
+  scholar: Yyno4-sAAAAJ
+  description: Preston graduated from the computer engineering department of the University of Pittsburgh in 2022. His undergraduate research included PCB design and biological modeling. Preston is currently working on new algorithms for processing using domain wall memory. Currently, he is designing fault protection schemes for common operations. Outside of research, he enjoys cooking, baking, and discovering new music. He enjoys spending time in his hometown Lancaster, Pennsylvania with his family and dogs.
+  linkedin: preston-brazzle-3a6b341b2
+  github: pbrazzle
+
+- name: Stephen Longofono
+  role: Alumni
+  sub_role: Masters
+  startdate: 2018-08-01
+  enddate: 2021-08-01
+  subsequent: Radiation Effects Engineer, The Radiation Team
+  orcid:
+  scholar:
+  linkedin: stephen-longofono-1bb70294
+  description:
+
+- name: Ryan Caginalp
+  role: Alumni
+  sub_role: Undergrads
+  startdate: 2020-05-01
+  enddate: 2022-09-01
+  subsequent: Student, University of Pittsburgh
+  orcid:
+  scholar:
+  linkedin: ryan-caginalp-a63769265
+  description:
+
+- name: Sébastien Ollivier, Ph.D.
+  role: Alumni
+  sub_role: PhD
+  startdate: 2017-08-01
+  enddate: 2022-05-01
+  subsequent: Postdoctoral Associate, University of Pittsburgh
+  orcid: 0000-0001-8283-0187
+  scholar: joPJ2XoAAAAJ
+  linkedin: sébastien-ollivier-ab9190130
+  description:

@@ -1,0 +1,109 @@
+---
+title: Jones Lab Publications
+layout: default
+permalink: /publications
+---
+
+<div class="container hyperlink-wrapper">
+
+
+	<h4><strong>Selected Publications</strong></h4>
+
+
+	<!-- Dropdown for selecting tags -->
+	<select id="tagSelector">
+		<option value="all">All</option>
+		<option value="Quantum Computing">Quantum Computing</option>
+		<option value="Processing-in-Memory">Processing-in-Memory</option>
+		<option value="Sustainable Computing">Sustainable Computing</option>
+		<!-- Add more options here -->
+	</select>
+
+	View <a target="_blank" href="https://scholar.google.com/citations?user=zTEvgkoAAAAJ">Google Scholar</a> or <a
+		target="_blank" href="https://dblp.org/pid/j/AKJones.html">DBLP</a> for a complete listing of citations and
+	work.
+
+	<div class="container-fluid">
+		{% assign sorted_publications = site.data.publications | sort: "date" | reverse %}
+		{% for publication in sorted_publications %}
+		<div class="publication-entry" data-tags="{{ publication.tags | join: ',' }}">
+			<hr style="border: 1px solid black;">
+
+			<hr style="border: 1px solid black;">
+
+			<div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{publication.date}}">
+				<div>
+					<h5>{{ publication.title }}</h5>
+					<p class="publication-authors">
+						{{ publication.authors | markdownify}}
+					</p>
+					{% if publication.journal %}
+					<p><i>{{ publication.journal }}</i>, {{ publication.date }}</p>
+					{% else %}
+					<p><i>Submitted to ArXiv</i>, {{ publication.date }}</p>
+					{% endif %}
+				</div>
+			</div>
+
+			<div class="row" style="padding-top: 20px; margin-top: -20px">
+				<div class="col-sm-6">
+					<img class="img-fluid" src="{{publication.image}}" alt="Key Figure" style="max-height: 200px;">
+				</div>
+				<ul class="col-sm-6" style="list-style-type:none;">
+					<br>
+					<h6> <strong>Access the paper</strong></h6>
+
+					<!--DOI-->
+					{% if publication.doi %}
+					<li><img class="inline-bloc mem-icon" src="/assets/img/logos/DOI_logo.svg" alt="DOI"> <a
+							href="https://doi.org/{{publication.doi}}" target="_blank"> {{publication.doi}}</a></li>
+					{% endif %}
+
+					<!--Arxiv - optional -->
+					{% if publication.arxiv %}
+					<li><img class="inline-bloc mem-icon" src="/assets/img/logos/arxiv_logo.jpg" alt="arXiv"> <a
+							target="_blank" href="https://arxiv.org/abs/{{publication.arxiv}}">
+							{{publication.arxiv}}</a>
+					</li>
+					{% endif %}
+
+					<!-- PDF -->
+					{% if publication.pdf %}
+					<li><img class="inline-bloc mem-icon" src="/assets/img/logos/PDF.svg" alt="PDF"> <a target="_blank"
+							href="{{publication.pdf}}"> Full Text</a></li>
+					{% endif %}
+
+					<!--Github - optional -->
+					{% if publication.github %}
+					<br>
+					<strong>Source Code</strong>
+					<li><img class="inline-bloc mem-icon" src="/assets/img/logos/github_logo.svg" alt="GitHub"> <a
+							href="https://github.com/{{publication.github}}" target="_blank"> {{publication.github}}</a>
+					</li>
+					{% endif %}
+				</ul>
+			</div>
+			<br>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
+<!-- JavaScript for filtering by tags -->
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+		const tagSelector = document.getElementById("tagSelector");
+		tagSelector.addEventListener("change", function () {
+			const selectedTag = this.value;
+			const entries = document.querySelectorAll(".publication-entry");
+			entries.forEach(entry => {
+				const tags = entry.getAttribute("data-tags");
+				if (selectedTag === "all" || tags.includes(selectedTag)) {
+					entry.style.display = "block";
+				} else {
+					entry.style.display = "none";
+				}
+			});
+		});
+	});
+</script>

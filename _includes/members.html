@@ -1,0 +1,90 @@
+<div id="{{ member.name }}" class="row pb-5">
+    {% if member.role == "Principal Investigator" %}
+    <div class="col-sm-7">
+        {% else %}
+        <div class="col-sm-3">
+            {% endif %}
+            {% if member.image %}
+            <img class="img-fluid" src="{{ member.image }}" alt="{{ member.name }}" />
+            {% endif %}
+        </div>
+        {% if member.role == "Principal Investigator" %}
+        <div class="col-sm-5">
+            {% else %}
+            <div class="col-sm-3">
+                {% endif %}
+                <ul class="member-information">
+                    <li>
+                        <strong>{{ member.name }}</strong>
+                        {% if member.pronouns %}
+                        ({{ member.pronouns }})
+                        {% endif %}
+                    </li>
+                    <li>
+                        {{ member.position }}
+                        {% if member.position1 %}
+                        <br><span style="white-space: normal;">{{ member.position1 }}</span>
+                        {% endif %}
+                        {% if member.position2 %}
+                        <br><span style="white-space: normal;">{{ member.position2 }}</span>
+                        {% endif %}
+                    </li>
+                    <li>
+                        <em>{{ member.email }}</em>
+                    </li>
+                    {% if member.website %}
+                    <li>
+                        <a style="overflow-wrap: break-word;" target="_blank" href="{{ member.website }}">{{
+                            member.website
+                            }}</a>
+                    </li>
+                    {% endif %}
+                    {% if member.orcid %}
+                    <li>
+                        <a target="_blank" href="http://orcid.org"><img class="inline-block mem-icon"
+                                src="/assets/img/logos/orcidid_logo.svg"></a>
+                        <a target="_blank" href="http://orcid.org/{{ member.orcid }}"> {{ member.orcid }}</a>
+                    </li>
+                    {% endif %}
+                    {% if member.linkedin %}
+                    <li>
+                        <a target="_blank" href="http://www.linkedin.com"><img class="inline-block mem-icon"
+                                src="/assets/img/logos/lin_logo.svg"></a>
+                        <a target="_blank" href="http://www.linkedin.com/in/{{ member.linkedin }}"> {{ member.linkedin
+                            }} </a>
+                    </li>
+                    {% endif %}
+                    {% if member.scholar %}
+                    <li>
+                        <a target="_blank" href="http://scholar.google.com"><img class="inline-block mem-icon"
+                                src="/assets/img/logos/gscholar_logo.svg"></a>
+                        <a target="_blank" href="http://scholar.google.com/citations?user={{ member.scholar }}"> Scholar
+                            Citations </a>
+                    </li>
+                    {% endif %}
+                    {% if member.twitter %}
+                    <li>
+                        <a target="_blank" href="http://twitter.com"><img class="inline-block mem-icon"
+                                src="/assets/img/logos/twitter2_logo.svg"></a>
+                        <a target="_blank" href="http://twitter.com/{{ member.twitter }}"> @{{ member.twitter }} </a>
+                    </li>
+                    {% endif %}
+                    {% if member.github %}
+                    <li>
+                        <a target="_blank" href="http://github.com"><img class="inline-bloc mem-icon"
+                                src="/assets/img/logos/github_logo.svg"></a>
+                        <a target="_blank" href="http://github.com/{{ member.github }}"> {{ member.github }} </a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+
+
+            {% if member.role == "Principal Investigator" %}
+            <div class="col-sm-12" style="text-align: justify; margin-top: 20px;">
+                {% else %}
+                <div class="col-sm-6">
+                    {% endif %}
+                    {{ member.description | markdownify }}
+                </div>
+            </div>

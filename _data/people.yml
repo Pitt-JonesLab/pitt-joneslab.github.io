@@ -63,6 +63,21 @@
   linkedin: preston-brazzle-3a6b341b2
   github: pbrazzle
 
+- name: Stephen Cahoon
+  role: Graduate Student
+  pronouns: he/him
+  startdate: 2022-05-15
+  enddate: 
+  image: /assets/img/members/
+  position: Graduate Student Researcher
+  subsequent: 
+  email: stc127@pitt.edu
+  orcid: 
+  scholar: olL_jNkAAAAJ
+  description: Stephen is a current graduate student from Mobile, Alabama in his second year at the University of Pittsburgh. He graduated from the University of South Alabama in 2022 studying electrical and computer engineering. During his undergraduate career, he did research on convolutional neural networks and their use for medical diagnoses. Currently, his research includes novel memory technologies, processing in memory, and the environmental impact of producing and using computer chips. For leisure, he plays games and enjoys time with his wife, dog, and cat.
+  linkedin: stephen-cahoon-885560250
+  github: cahoon-stephen
+
 - name: Stephen Longofono
   role: Alumni
   sub_role: Masters

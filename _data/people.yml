@@ -1,5 +1,5 @@
 # - name: John Doe                        # Required
-#   role: "Graduate Student"              # Required, valid options: "Principal Investigator", "PhD", "Masters", "Undergrads", "Alumni", etc.
+#   role: "PhD"                           # Required, valid options: "Principal Investigator", "PhD", "Masters", "Undergrads", "Alumni", etc.
 #   image: "/assets/img/members/john.jpg" # Required
 #   position: "PhD Student, ECE"          # Required
 #   email: "john.doe [at] pitt.edu"       # Required
@@ -49,7 +49,7 @@
   description: Evan McKinney is a third-year graduate student, co-advised by Dr. Michael Hatridge from Department of Physics. He graduated from Iowa State University studying computer engineering and physics. In the lab, he studies the co-design of quantum computing architecture and optimizations for near-term QC applications.
 
 - name: Preston Brazzle
-  role: Graduate Student
+  role: PhD
   pronouns: he/him
   startdate: 2022-05-15
   enddate: 
@@ -64,7 +64,7 @@
   github: pbrazzle
 
 - name: Stephen Cahoon
-  role: Graduate Student
+  role: PhD
   pronouns: he/him
   startdate: 2022-05-15
   enddate: 
@@ -79,8 +79,7 @@
   github: cahoon-stephen
 
 - name: Stephen Longofono
-  role: Alumni
-  sub_role: Masters
+  role: Masters
   startdate: 2018-08-01
   enddate: 2021-08-01
   subsequent: Radiation Effects Engineer, The Radiation Team
@@ -90,8 +89,7 @@
   description:
 
 - name: Ryan Caginalp
-  role: Alumni
-  sub_role: Undergrads
+  role: Undergrads
   startdate: 2020-05-01
   enddate: 2022-09-01
   subsequent: Student, University of Pittsburgh
@@ -101,8 +99,7 @@
   description:
 
 - name: Sébastien Ollivier, Ph.D.
-  role: Alumni
-  sub_role: PhD
+  role: PhD
   startdate: 2017-08-01
   enddate: 2022-05-01
   subsequent: Postdoctoral Associate, University of Pittsburgh

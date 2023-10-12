@@ -8,15 +8,16 @@ To effectively solve current and future computing problems it is not enough to d
 
 Topics:
 
+- Quantum Computer Architecture
+
 - Fault Tolerant Memory and Storage Systems
 
 - Compiler, OS, and Storage Design for Processing in Memory
 
-- Securing the Industrial Internet of Things
+- Sustainable Computing
 
 - Radiation Tolerant Space Computing Systems
 
-- Sustainable Computing
 
 **Interested in joining the Jones Lab?**
 Open positions are listed on our <a target="_blank" href="{{ site.url }}/contact"> join</a> page. <br>

@@ -109,12 +109,12 @@
   description:
 
 - name: Richard F. Gibbons III                      # Required
-  role: "PhD"                           # Required, valid options: "Principal Investigator", "PhD", "Masters", "Undergrads", "Alumni", etc.
-  image: "/assets/img/members/new-member.jpg" # Required
-  position: "PhD Student, ECE"          # Required
-  email: "rfg17@pitt.edu"       # Required
-  startdate: "2024-01-01"               # Required
-  pronouns: "he/him"                    # Optional
-  linkedin: "richard-francis-gibbons-iii-999a69160"                  # Optional
-  github: "robotic9877"                  # Optional
-  description: "Richard is a first-year graduate student. He graduated from Virginia Tech studying Electrical Engineering. While at Virginia Tech, he lead the hardware development teams for two CubeSat Missions. In the lab, he studies sustainable computing and radiation tolerant space computing systems."      # Optional
+  role: PhD                           # Required, valid options: "Principal Investigator", "PhD", "Masters", "Undergrads", "Alumni", etc.
+  image: /assets/img/members/new-member.jpg # Required
+  position: PhD Student, ECE        # Required
+  email: rfg17@pitt.edu       # Required
+  startdate: 2024-01-01               # Required
+  pronouns: he/him                    # Optional
+  linkedin: richard-francis-gibbons-iii-999a69160                 # Optional
+  github: robotic9877                  # Optional
+  description: Richard is a first-year graduate student. He graduated from Virginia Tech studying Electrical Engineering. While at Virginia Tech, he lead the hardware development teams for two CubeSat Missions. In the lab, he studies sustainable computing and radiation tolerant space computing systems.      # Optional

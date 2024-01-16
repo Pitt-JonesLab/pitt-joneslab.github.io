@@ -98,7 +98,7 @@
   linkedin: ryan-caginalp-a63769265
   description:
 
-  - name: Rebecca Green
+- name: Rebecca Green
   role: Undergrads
   startdate: 2023-05-01
   enddate: 2022-08-01
@@ -107,7 +107,6 @@
   scholar:
   linkedin: rebecca-green-5379a4191
   description:
-
 
 - name: Sébastien Ollivier, Ph.D.
   role: PhD

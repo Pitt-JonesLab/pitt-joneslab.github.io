@@ -120,7 +120,7 @@
 
 - name: Richard F. Gibbons III                      # Required
   role: PhD                           # Required, valid options: "Principal Investigator", "PhD", "Masters", "Undergrads", "Alumni", etc.
-  image: /assets/img/members/new-member.jpg # Required
+  image: /assets/img/members/Richard.jpg.jpg # Required
   position: PhD Student, ECE        # Required
   email: rfg17 [at] pitt.edu       # Required
   startdate: 2024-01-01               # Required

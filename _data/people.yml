@@ -1,5 +1,5 @@
 # - name: John Doe                        # Required
-#   role: "PhD"                           # Required, valid options: "Principal Investigator", "PhD", "Masters", "Undergrads", "Alumni", etc.
+#   role: "PhD"                           # Required, valid options: ["Principal Investigator", "PhD", "Masters", "Undergrads", "Alumni"]
 #   image: "/assets/img/members/john.jpg" # Required
 #   position: "PhD Student, ECE"          # Required
 #   email: "john.doe [at] pitt.edu"       # Required
@@ -97,6 +97,17 @@
   scholar:
   linkedin: ryan-caginalp-a63769265
   description:
+
+  - name: Rebecca Green
+  role: Undergrads
+  startdate: 2023-05-01
+  enddate: 2022-08-01
+  subsequent: Student, University of Pittsburgh
+  orcid:
+  scholar:
+  linkedin: rebecca-green-5379a4191
+  description:
+
 
 - name: Sébastien Ollivier, Ph.D.
   role: PhD

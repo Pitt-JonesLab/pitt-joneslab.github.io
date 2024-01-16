@@ -108,6 +108,16 @@
   linkedin: sébastien-ollivier-ab9190130
   description:
 
+- name: Rebecca Green
+  role: Undergrads
+  startdate: 2023-05-01
+  enddate: 2023-08-01
+  subsequent: Student, University of Pittsburgh
+  orcid:
+  scholar:
+  linkedin: rebecca-green-5379a4191
+  description:
+
 - name: Richard F. Gibbons III                      # Required
   role: PhD                           # Required, valid options: "Principal Investigator", "PhD", "Masters", "Undergrads", "Alumni", etc.
   image: /assets/img/members/new-member.jpg # Required

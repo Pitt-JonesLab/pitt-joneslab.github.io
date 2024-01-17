@@ -34,6 +34,7 @@
 
 - title: "MIRAGE: Quantum Circuit Decomposition and Routing Collaborative Design using Mirror Gates"
   authors: "McKinney, E., Hatridge, M., Jones, A.K"
+  journal: "2024 IEEE International Symposium on High-Performance Computer Architecture (HPCA)"
   date: "2023-08-07"
   doi: "10.48550/arXiv.2308.03874"
   image: "/assets/img/research/mirage.png"

@@ -128,3 +128,14 @@
   linkedin: richard-francis-gibbons-iii-999a69160                 # Optional
   github: robotic9877                  # Optional
   description: Richard is a first-year graduate student. He graduated from Virginia Tech studying Electrical Engineering. While at Virginia Tech, he lead the hardware development teams for two CubeSat Missions. In the lab, he studies sustainable computing and radiation tolerant space computing systems.      # Optional
+
+- name: Girgis Falstin
+  role: PhD
+  pronouns: he/him
+  startdate: 2022-08-01
+  enddate: N/A
+  image: 
+  position: PhD Student, Physics 
+  email: gif8 [at] pitt.edu
+  github: GirgisF
+  description: Girgis is a second year Phd student in the department of physics. He graduated with a BS in engineering physics from the University of Pittsburgh. He studies quantum computing architecture. 

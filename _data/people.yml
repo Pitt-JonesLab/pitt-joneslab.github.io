@@ -36,6 +36,7 @@
   role: PhD
   pronouns: he/him
   startdate: 2021-08-01
+  enddate: 2025-05-30
   enddate: 
   image: /assets/img/members/evan.jpg
   position: PhD Student, ECE
@@ -46,7 +47,7 @@
   scholar: Qx3TAbkAAAAJ
   linkedin: evm9
   github: evmckinney9
-  description: Evan McKinney is a third-year graduate student, co-advised by Dr. Michael Hatridge from Department of Physics. He graduated from Iowa State University studying computer engineering and physics. In the lab, he studies the co-design of quantum computing architecture and optimizations for near-term QC applications.
+  description: Evan McKinney is a former graduate student, co-advised by Dr. Michael Hatridge from Department of Physics. He graduated from Iowa State University studying computer engineering and physics. In the lab, he studies the co-design of quantum computing architecture and optimizations for near-term QC applications.
 
 - name: Preston Brazzle
   role: PhD
